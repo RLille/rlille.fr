@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Reproducible Computation At Scale In R With {targets}</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: #d40000;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://rlille.github.io/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.90.1" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Reproducible Computation At Scale In R With {targets}</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Accueil</a></li>
+                            
+                                <li><a href="/about/">À Propos</a></li>
+                            
+                                <li><a href="/post/">Blog</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="https://github.com/RLille"><i class="fab fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="http://meetup.rlille.fr"><i class="fab fa-meetup"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="http://youtube.rlille.fr"><i class="fab fa-youtube"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/rlille_rug/"><i class="fab fa-twitter"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Reproducible Computation At Scale In R With {targets}</h2>
+        <h4><i>Mickaël Canouil</i></h4>
+        <h5>02-05-2021</h5>
+        
+<a href="https://rlille.github.io/tags/meetup"><kbd class="item-tag">MeetUp</kbd></a>
+
+<a href="https://rlille.github.io/tags/r"><kbd class="item-tag">R</kbd></a>
+
+<a href="https://rlille.github.io/tags/rug"><kbd class="item-tag">RUG</kbd></a>
+
+<a href="https://rlille.github.io/tags/reproductibilit%C3%A9"><kbd class="item-tag">reproductibilité</kbd></a>
+
+<a href="https://rlille.github.io/tags/analyse"><kbd class="item-tag">analyse</kbd></a>
+
+<a href="https://rlille.github.io/tags/package"><kbd class="item-tag">package</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content">
+<script src="https://rlille.github.io/post/2021-05-02-reproducible-computation-targets/index_files/header-attrs/header-attrs.js"></script>
+
+
+<p>Bonjour à toutes et tous,</p>
+<p>R Lille organise un nouveau MeetUp sur le thème de la reproductibilité des analyses :<br />
+<strong>Reproducible Computation at Scale in R with {targets}</strong></p>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FODSavXGjYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</center>
+<!-- <center> -->
+<!-- ![](images/2021-06-17.png) -->
+<!-- </center> -->
+<blockquote>
+<p><em>[Résumé]</em><br />
+L’extension R {targets} (<a href="https://docs.ropensci.org/targets/" class="uri">https://docs.ropensci.org/targets/</a>) améliore la reproductibilité, la mise à l’échelle et la maintenabilité des projets de science des données dans des domaines utilisants des méthodes de calcul intensif tels que l’apprentissage automatique, l’analyse de données bayésiennes et la statistique génomique.
+{targets} identifie la structure de dépendance des éléments du pipeline d’analyse, ignore les tâches à jour, exécute le reste et gère le stockage des données, tout en offrant des options de calcul distribué.
+{stantargets} (<a href="https://docs.ropensci.org/stantargets/" class="uri">https://docs.ropensci.org/stantargets/</a>) et extensions similaires, étendent {targets} pour simplifier la construction de pipelines pour des domaines d’application spécifiques, tels que la validation de modèles bayésiens.</p>
+<p><em>[Bio]</em><br />
+Will Landau (<a href="https://wlandau.github.io/" class="uri">https://wlandau.github.io/</a>) travaille pour Eli Lilly and Company (<a href="https://www.lilly.com/" class="uri">https://www.lilly.com/</a>) où il développe des méthodes et des outils pour les statisticiens/cliniciens.
+Il est le créateur et le mainteneur des extensions R {targets} et {drake}.
+Will a obtenu son doctorat en statistique à l’Université d’État de l’Iowa en 2016, durant laquelle il a appliqué des méthodes bayésiennes, des modèles hiérarchiques et réalisé du calcul GPU dans le cadre d’analyse de données RNA-seq.</p>
+<p><em>[A Propos]</em><br />
+Cet événement est organisé par R Lille (Lille, France) et aura lieu en anglais.</p>
+</blockquote>
+<p>Celui-ci sera présenté par <strong>Will Landau</strong> sur invitation de <strong>R Lille</strong> et aura lieu le <strong>jeudi 17 juin 2021 à 18 h 00 (CEST / UTC + 2)</strong> en ligne.</p>
+<p>Les inscriptions sont sur Meetup : <a href="http://meetup.rlille.fr/events/277902715/" class="uri">http://meetup.rlille.fr/events/277902715/</a></p>
+<p>L’ensemble des diapositives sera mis à disposition sur le GitHub du groupe : <a href="https://github.com/RLille/meetups" class="uri">https://github.com/RLille/meetups</a></p>
+<p>Le Meetup sera enrigistré et diffusé sur Youtube (<a href="http://youtube.rlille.fr/" class="uri">http://youtube.rlille.fr/</a>).</p>
+<p>À bientôt !<br />
+Mickaël CANOUIL</p>
+</div>
+
+    
+    
+    
+        <h4 class="page-header">Billets sur le même sujet</h4>
+         <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/2021-10-26-spatial-analysis-sf/">Analyse Spatiale Sous R, Avec L&#39;Extension {sf}</br><i style="font-size:0.75em;">(Julien Hamonier</i>)</a></h4>
+    <h5>26-10-2021</h5>
+    
+<a href="https://rlille.github.io/tags/meetup"><kbd class="item-tag">MeetUp</kbd></a>
+
+<a href="https://rlille.github.io/tags/r"><kbd class="item-tag">R</kbd></a>
+
+<a href="https://rlille.github.io/tags/rug"><kbd class="item-tag">RUG</kbd></a>
+
+<a href="https://rlille.github.io/tags/analyse-spatiale"><kbd class="item-tag">analyse spatiale</kbd></a>
+
+
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/2021-10-05-resilient-r-user/">Être Un•e Utilisateur•rice De R Résilient•e</br><i style="font-size:0.75em;">(Mickaël Canouil</i>)</a></h4>
+    <h5>05-10-2021</h5>
+    
+<a href="https://rlille.github.io/tags/meetup"><kbd class="item-tag">MeetUp</kbd></a>
+
+<a href="https://rlille.github.io/tags/r"><kbd class="item-tag">R</kbd></a>
+
+<a href="https://rlille.github.io/tags/rug"><kbd class="item-tag">RUG</kbd></a>
+
+<a href="https://rlille.github.io/tags/renv"><kbd class="item-tag">renv</kbd></a>
+
+<a href="https://rlille.github.io/tags/debugging"><kbd class="item-tag">debugging</kbd></a>
+
+<a href="https://rlille.github.io/tags/resiliency"><kbd class="item-tag">resiliency</kbd></a>
+
+<a href="https://rlille.github.io/tags/beginner"><kbd class="item-tag">beginner</kbd></a>
+
+<a href="https://rlille.github.io/tags/getting-help"><kbd class="item-tag">getting help</kbd></a>
+
+
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/2021-03-26-journey-transparency/">My Journey To Transparency And Reproducibility</br><i style="font-size:0.75em;">(Mickaël Canouil</i>)</a></h4>
+    <h5>26-03-2021</h5>
+    
+<a href="https://rlille.github.io/tags/meetup"><kbd class="item-tag">MeetUp</kbd></a>
+
+<a href="https://rlille.github.io/tags/r"><kbd class="item-tag">R</kbd></a>
+
+<a href="https://rlille.github.io/tags/rug"><kbd class="item-tag">RUG</kbd></a>
+
+<a href="https://rlille.github.io/tags/reproductibilit%C3%A9"><kbd class="item-tag">reproductibilité</kbd></a>
+
+<a href="https://rlille.github.io/tags/docker"><kbd class="item-tag">docker</kbd></a>
+
+
+
+</div>
+ 
+    
+
+    
+    
+
+</main>
+
+<footer>
+    <p class="copyright text-muted">
+        © 2020-2021 R Lille.<br> Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a> (modified by <a href="https://mickael.canouil.fr">Mickaël Canouil</a>).
+    </p>
+    <p class="copyright text-muted">
+        Supported by <img height="20em" src="/media/RConsortium_Horizontal_Pantone.png">.
+    </p>
+</footer>
+
+
+
+
+</body>
+
+</html>
+

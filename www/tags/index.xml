@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on R Lille</title>
+    <link>https://rlille.github.io/tags/</link>
+    <description>Recent content in Tags on R Lille</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rlille.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>analyse spatiale</title>
+      <link>https://rlille.github.io/tags/analyse-spatiale/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rlille.github.io/tags/analyse-spatiale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MeetUp</title>
+      <link>https://rlille.github.io/tags/meetup/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rlille.github.io/tags/meetup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://rlille.github.io/tags/r/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rlille.github.io/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RUG</title>
+      <link>https://rlille.github.io/tags/rug/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rlille.github.io/tags/rug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>beginner</title>
+      <link>https://rlille.github.io/tags/beginner/</link>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rlille.github.io/tags/beginner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>debugging</title>
+      <link>https://rlille.github.io/tags/debugging/</link>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rlille.github.io/tags/debugging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>getting help</title>
+      <link>https://rlille.github.io/tags/getting-help/</link>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rlille.github.io/tags/getting-help/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>renv</title>
+      <link>https://rlille.github.io/tags/renv/</link>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rlille.github.io/tags/renv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>resiliency</title>
+      <link>https://rlille.github.io/tags/resiliency/</link>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rlille.github.io/tags/resiliency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>analyse</title>
+      <link>https://rlille.github.io/tags/analyse/</link>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rlille.github.io/tags/analyse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>package</title>
+      <link>https://rlille.github.io/tags/package/</link>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rlille.github.io/tags/package/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reproductibilité</title>
+      <link>https://rlille.github.io/tags/reproductibilit%C3%A9/</link>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rlille.github.io/tags/reproductibilit%C3%A9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://rlille.github.io/tags/docker/</link>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rlille.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dévelopement</title>
+      <link>https://rlille.github.io/tags/d%C3%A9velopement/</link>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rlille.github.io/tags/d%C3%A9velopement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rmarkdown</title>
+      <link>https://rlille.github.io/tags/rmarkdown/</link>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rlille.github.io/tags/rmarkdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enseignement</title>
+      <link>https://rlille.github.io/tags/enseignement/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rlille.github.io/tags/enseignement/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
