@@ -6,7 +6,7 @@ if (interactive()) {
     blogdown.serve_site.startup = FALSE
   )
 
-  rebuild <- function(...) blogdown::build_site(..., local = TRUE, build_rmd = "timestamp")
+  rebuild <- function(...) blogdown::build_site(..., build_rmd = "timestamp")
 
   update <- function() {
     install_theme(
