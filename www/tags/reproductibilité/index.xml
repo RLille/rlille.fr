@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>reproductibilité on R Lille</title>
-    <link>https://rlille.github.io/tags/reproductibilit%C3%A9/</link>
+    <link>https://rlille.fr/tags/reproductibilit%C3%A9/</link>
     <description>Recent content in reproductibilité on R Lille</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Sun, 02 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rlille.github.io/tags/reproductibilit%C3%A9/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rlille.fr/tags/reproductibilit%C3%A9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reproducible Computation At Scale In R With {targets}</title>
-      <link>https://rlille.github.io/post/2021-05-02-reproducible-computation-targets/</link>
+      <link>https://rlille.fr/post/2021-05-02-reproducible-computation-targets/</link>
       <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rlille.github.io/post/2021-05-02-reproducible-computation-targets/</guid>
+      <guid>https://rlille.fr/post/2021-05-02-reproducible-computation-targets/</guid>
       <description>Bonjour à toutes et tous,
 R Lille organise un nouveau MeetUp sur le thème de la reproductibilité des analyses :
 Reproducible Computation at Scale in R with {targets}
@@ -22,10 +22,10 @@ L’extension R {targets} (https://docs.ropensci.org/targets/) améliore la repr
     
     <item>
       <title>My Journey To Transparency And Reproducibility</title>
-      <link>https://rlille.github.io/post/2021-03-26-journey-transparency/</link>
+      <link>https://rlille.fr/post/2021-03-26-journey-transparency/</link>
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rlille.github.io/post/2021-03-26-journey-transparency/</guid>
+      <guid>https://rlille.fr/post/2021-03-26-journey-transparency/</guid>
       <description>Bonjour à toutes et tous,
 R Lille organise un nouveau MeetUp sur le thème de la reproductibilité :
 My Journey To Transparency And Reproducibility

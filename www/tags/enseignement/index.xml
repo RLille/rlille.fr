@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Enseignement on R Lille</title>
-    <link>https://rlille.github.io/tags/enseignement/</link>
+    <link>https://rlille.fr/tags/enseignement/</link>
     <description>Recent content in Enseignement on R Lille</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Fri, 12 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rlille.github.io/tags/enseignement/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rlille.fr/tags/enseignement/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enseignement &amp; R</title>
-      <link>https://rlille.github.io/post/2021-02-12-enseignement-r/</link>
+      <link>https://rlille.fr/post/2021-02-12-enseignement-r/</link>
       <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rlille.github.io/post/2021-02-12-enseignement-r/</guid>
+      <guid>https://rlille.fr/post/2021-02-12-enseignement-r/</guid>
       <description>Bonjour à toutes et tous,
 Pour ce premier MeetUp 2021, nous vous proposons une réunion orientée sur l’enseignement et comment R peut y être utilisé.
   Nous avons en tête un moment d’échange sur vos pratiques, méthodes, outils, etc., plutôt en mode discussion que présentation.

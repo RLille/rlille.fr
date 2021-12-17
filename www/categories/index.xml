@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on R Lille</title>
-    <link>https://rlille.github.io/categories/</link>
+    <link>https://rlille.fr/categories/</link>
     <description>Recent content in Categories on R Lille</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rlille.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rlille.fr/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MeetUp</title>
-      <link>https://rlille.github.io/categories/meetup/</link>
+      <link>https://rlille.fr/categories/meetup/</link>
       <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rlille.github.io/categories/meetup/</guid>
+      <guid>https://rlille.fr/categories/meetup/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>https://rlille.github.io/categories/r/</link>
+      <link>https://rlille.fr/categories/r/</link>
       <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rlille.github.io/categories/r/</guid>
+      <guid>https://rlille.fr/categories/r/</guid>
       <description></description>
     </item>
     

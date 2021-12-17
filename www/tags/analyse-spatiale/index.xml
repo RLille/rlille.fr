@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>analyse spatiale on R Lille</title>
-    <link>https://rlille.github.io/tags/analyse-spatiale/</link>
+    <link>https://rlille.fr/tags/analyse-spatiale/</link>
     <description>Recent content in analyse spatiale on R Lille</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rlille.github.io/tags/analyse-spatiale/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rlille.fr/tags/analyse-spatiale/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Analyse Spatiale Sous R, Avec L&#39;Extension {sf}</title>
-      <link>https://rlille.github.io/post/2021-10-26-spatial-analysis-sf/</link>
+      <link>https://rlille.fr/post/2021-10-26-spatial-analysis-sf/</link>
       <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rlille.github.io/post/2021-10-26-spatial-analysis-sf/</guid>
+      <guid>https://rlille.fr/post/2021-10-26-spatial-analysis-sf/</guid>
       <description>Bonjour à toutes et tous,
 R Lille organise un nouveau MeetUp sur le thème :
 Analyse Spatiale Sous R, Avec L’Extension {sf}
