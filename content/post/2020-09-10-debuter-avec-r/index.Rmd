@@ -7,9 +7,8 @@ categories:
   - MeetUp
   - R
 tags:
-  - R
-  - RUG
   - MeetUp
+  - R
 ---
 
 Bonjour à toutes et tous,

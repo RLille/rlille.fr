@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on R Lille</title>
-    <link>https://rlille.fr/categories/r/</link>
+    <link>https://rlille.netlify.app/categories/r/</link>
     <description>Recent content in R on R Lille</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rlille.fr/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rlille.netlify.app/categories/r/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Analyse Spatiale Sous R, Avec L&#39;Extension {sf}</title>
-      <link>https://rlille.fr/post/2021-10-26-spatial-analysis-sf/</link>
+      <link>https://rlille.netlify.app/post/2021-10-26-spatial-analysis-sf/</link>
       <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rlille.fr/post/2021-10-26-spatial-analysis-sf/</guid>
+      <guid>https://rlille.netlify.app/post/2021-10-26-spatial-analysis-sf/</guid>
       <description>Bonjour à toutes et tous,
 R Lille organise un nouveau MeetUp sur le thème :
 Analyse Spatiale Sous R, Avec L’Extension {sf}
@@ -23,10 +23,10 @@ Les trois principaux sont {rgdal} qui permettait d’importer des données spati
     
     <item>
       <title>Être Un•e Utilisateur•rice De R Résilient•e</title>
-      <link>https://rlille.fr/post/2021-10-05-resilient-r-user/</link>
+      <link>https://rlille.netlify.app/post/2021-10-05-resilient-r-user/</link>
       <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rlille.fr/post/2021-10-05-resilient-r-user/</guid>
+      <guid>https://rlille.netlify.app/post/2021-10-05-resilient-r-user/</guid>
       <description>Bonjour à toutes et tous,
 R Lille organise un nouveau MeetUp :
 Être un•e utilisateur•rice de R résilient•e
@@ -38,10 +38,10 @@ Triste constat ? Non, car vous apprendrez aussi à devenir un·e utilisateur·ri
     
     <item>
       <title>Reproducible Computation At Scale In R With {targets}</title>
-      <link>https://rlille.fr/post/2021-05-02-reproducible-computation-targets/</link>
+      <link>https://rlille.netlify.app/post/2021-05-02-reproducible-computation-targets/</link>
       <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rlille.fr/post/2021-05-02-reproducible-computation-targets/</guid>
+      <guid>https://rlille.netlify.app/post/2021-05-02-reproducible-computation-targets/</guid>
       <description>Bonjour à toutes et tous,
 R Lille organise un nouveau MeetUp sur le thème de la reproductibilité des analyses :
 Reproducible Computation at Scale in R with {targets}
@@ -51,10 +51,10 @@ L’extension R {targets} (https://docs.ropensci.org/targets/) améliore la repr
     
     <item>
       <title>How To Build A Package With The &#34;Rmd First&#34; Method</title>
-      <link>https://rlille.fr/post/2021-03-26-rmd-first-method/</link>
+      <link>https://rlille.netlify.app/post/2021-03-26-rmd-first-method/</link>
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rlille.fr/post/2021-03-26-rmd-first-method/</guid>
+      <guid>https://rlille.netlify.app/post/2021-03-26-rmd-first-method/</guid>
       <description>Bonjour à toutes et tous,
 R Lille organise un nouveau MeetUp sur le thème du développement à partir de Rmarkdown :
 How To Build A Package With The “Rmd First” Method
@@ -64,10 +64,10 @@ Vous savez comment construire un Rmardown, on vous a dit ou vous aimeriez mettre
     
     <item>
       <title>My Journey To Transparency And Reproducibility</title>
-      <link>https://rlille.fr/post/2021-03-26-journey-transparency/</link>
+      <link>https://rlille.netlify.app/post/2021-03-26-journey-transparency/</link>
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rlille.fr/post/2021-03-26-journey-transparency/</guid>
+      <guid>https://rlille.netlify.app/post/2021-03-26-journey-transparency/</guid>
       <description>Bonjour à toutes et tous,
 R Lille organise un nouveau MeetUp sur le thème de la reproductibilité :
 My Journey To Transparency And Reproducibility
@@ -77,10 +77,10 @@ Dans cette présentation, je (Mickaël Canouil, https://m.canouil.fr) vais vous 
     
     <item>
       <title>Enseignement &amp; R</title>
-      <link>https://rlille.fr/post/2021-02-12-enseignement-r/</link>
+      <link>https://rlille.netlify.app/post/2021-02-12-enseignement-r/</link>
       <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rlille.fr/post/2021-02-12-enseignement-r/</guid>
+      <guid>https://rlille.netlify.app/post/2021-02-12-enseignement-r/</guid>
       <description>Bonjour à toutes et tous,
 Pour ce premier MeetUp 2021, nous vous proposons une réunion orientée sur l’enseignement et comment R peut y être utilisé.
   Nous avons en tête un moment d’échange sur vos pratiques, méthodes, outils, etc., plutôt en mode discussion que présentation.
@@ -89,10 +89,10 @@ Si vous enseignez du R ou que vous utilisez ce langage pour construire vos cours
     
     <item>
       <title>&#39;flexdashboard&#39; Pour Des Tableaux de Bords (HTML) Interactifs</title>
-      <link>https://rlille.fr/post/2020-10-20-flexdasboard/</link>
+      <link>https://rlille.netlify.app/post/2020-10-20-flexdasboard/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rlille.fr/post/2020-10-20-flexdasboard/</guid>
+      <guid>https://rlille.netlify.app/post/2020-10-20-flexdasboard/</guid>
       <description>Bonjour à toutes et tous,
 R Lille (le groupe des utilisateurs de R) organise son second MeetUp :
 ‘flexdashboard’ Pour Des Tableaux de Bords (HTML) Interactifs
@@ -102,10 +102,10 @@ R Lille (le groupe des utilisateurs de R) organise son second MeetUp :
     
     <item>
       <title>&#34;Débuter&#34; avec R en Commençant par le Début ...</title>
-      <link>https://rlille.fr/post/2020-09-10-debuter-avec-r/</link>
+      <link>https://rlille.netlify.app/post/2020-09-10-debuter-avec-r/</link>
       <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rlille.fr/post/2020-09-10-debuter-avec-r/</guid>
+      <guid>https://rlille.netlify.app/post/2020-09-10-debuter-avec-r/</guid>
       <description>Bonjour à toutes et tous,
 R Lille (le groupe des utilisateurs de R) organise son premier MeetUp :
 “Débuter” avec R en Commençant par le Début …
@@ -116,10 +116,10 @@ Ce MeetUp n’est ouvert qu’à 30 participants.</description>
     
     <item>
       <title>[REPORTÉ] &#34;Débuter&#34; avec R en Commençant par le Début ...</title>
-      <link>https://rlille.fr/post/2020-03-04-debuter-avec-r/</link>
+      <link>https://rlille.netlify.app/post/2020-03-04-debuter-avec-r/</link>
       <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rlille.fr/post/2020-03-04-debuter-avec-r/</guid>
+      <guid>https://rlille.netlify.app/post/2020-03-04-debuter-avec-r/</guid>
       <description>Bonjour à toutes et tous,
 R Lille (le groupe des utilisateurs de R) organise son premier MeetUp :
 “Débuter” avec R en Commençant par le Début …
@@ -133,10 +133,10 @@ Les inscriptions sont par ici : https://www.meetup.com/R-Lille/events/269159363/
     
     <item>
       <title>Bienvenue à R Lille</title>
-      <link>https://rlille.fr/post/2020-02-07-rlille-welcome/</link>
+      <link>https://rlille.netlify.app/post/2020-02-07-rlille-welcome/</link>
       <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rlille.fr/post/2020-02-07-rlille-welcome/</guid>
+      <guid>https://rlille.netlify.app/post/2020-02-07-rlille-welcome/</guid>
       <description>Bonjour à toutes et tous,
 Pour information, depuis très récemment, il existe un groupe des utilisateurs du logiciel/langage R à Lille.
    R Lille

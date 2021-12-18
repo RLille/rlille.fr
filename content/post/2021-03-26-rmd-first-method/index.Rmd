@@ -9,10 +9,9 @@ categories:
 tags:
   - MeetUp
   - R
-  - RUG
   - dévelopement
   - rmarkdown
-  - package
+  - extension
 description: ''
 ---
 

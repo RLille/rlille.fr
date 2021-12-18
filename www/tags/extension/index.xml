@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>extension on R Lille</title>
+    <link>https://rlille.netlify.app/tags/extension/</link>
+    <description>Recent content in extension on R Lille</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rlille.netlify.app/tags/extension/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analyse Spatiale Sous R, Avec L&#39;Extension {sf}</title>
+      <link>https://rlille.netlify.app/post/2021-10-26-spatial-analysis-sf/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rlille.netlify.app/post/2021-10-26-spatial-analysis-sf/</guid>
+      <description>Bonjour à toutes et tous,
+R Lille organise un nouveau MeetUp sur le thème :
+Analyse Spatiale Sous R, Avec L’Extension {sf}
+   ![](images/2021-11-18.png)  --  [Résumé]
+Bien qu’initialement non conçus spécifiquement pour l’analyse spatiale, un certain nombre de packages ont émergé sur le logiciel R.
+Les trois principaux sont {rgdal} qui permettait d’importer des données spatiales (shapefile, …), {sp} qui fournit les outils pour analyser les données, les mettre en formes, etc.</description>
+    </item>
+    
+    <item>
+      <title>Reproducible Computation At Scale In R With {targets}</title>
+      <link>https://rlille.netlify.app/post/2021-05-02-reproducible-computation-targets/</link>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rlille.netlify.app/post/2021-05-02-reproducible-computation-targets/</guid>
+      <description>Bonjour à toutes et tous,
+R Lille organise un nouveau MeetUp sur le thème de la reproductibilité des analyses :
+Reproducible Computation at Scale in R with {targets}
+   -- --  [Résumé]
+L’extension R {targets} (https://docs.ropensci.org/targets/) améliore la reproductibilité, la mise à l’échelle et la maintenabilité des projets de science des données dans des domaines utilisants des méthodes de calcul intensif tels que l’apprentissage automatique, l’analyse de données bayésiennes et la statistique génomique.</description>
+    </item>
+    
+    <item>
+      <title>How To Build A Package With The &#34;Rmd First&#34; Method</title>
+      <link>https://rlille.netlify.app/post/2021-03-26-rmd-first-method/</link>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rlille.netlify.app/post/2021-03-26-rmd-first-method/</guid>
+      <description>Bonjour à toutes et tous,
+R Lille organise un nouveau MeetUp sur le thème du développement à partir de Rmarkdown :
+How To Build A Package With The “Rmd First” Method
+    [Résumé]
+Vous savez comment construire un Rmardown, on vous a dit ou vous aimeriez mettre votre travail dans un package R, mais vous pensez que c’est trop de travail ? Vous ne comprenez pas où mettre quoi et quand ?</description>
+    </item>
+    
+  </channel>
+</rss>

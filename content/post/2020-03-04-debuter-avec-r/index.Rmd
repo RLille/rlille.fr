@@ -7,9 +7,10 @@ categories:
   - MeetUp
   - R
 tags:
-  - R
-  - RUG
   - MeetUp
+  - R
+  - Débuter
+  - Configuration
 ---
 
 Bonjour à toutes et tous,

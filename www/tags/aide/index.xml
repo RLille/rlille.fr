@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aide on R Lille</title>
+    <link>https://rlille.netlify.app/tags/aide/</link>
+    <description>Recent content in aide on R Lille</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Tue, 05 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rlille.netlify.app/tags/aide/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Être Un•e Utilisateur•rice De R Résilient•e</title>
+      <link>https://rlille.netlify.app/post/2021-10-05-resilient-r-user/</link>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rlille.netlify.app/post/2021-10-05-resilient-r-user/</guid>
+      <description>Bonjour à toutes et tous,
+R Lille organise un nouveau MeetUp :
+Être un•e utilisateur•rice de R résilient•e
+   ![](images/2021-12-02.png)  --  [Résumé]
+Apprendre R est une excellente idée pour réaliser différentes tâches au travail.
+Cependant, même une fois passé·e au-delà de “Bonjour Monde”, vous continuerez régulièrement à avoir des problèmes dans R …
+Triste constat ? Non, car vous apprendrez aussi à devenir un·e utilisateur·rice de R résilient·e !</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -9,12 +9,11 @@ categories:
 tags:
   - MeetUp
   - R
-  - RUG
   - renv
-  - debugging
-  - resiliency
-  - beginner
-  - getting help
+  - débogage
+  - resilience
+  - débutant
+  - aide
 description: ''
 ---
 

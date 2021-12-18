@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rmarkdown on R Lille</title>
-    <link>https://rlille.fr/tags/rmarkdown/</link>
+    <link>https://rlille.netlify.app/tags/rmarkdown/</link>
     <description>Recent content in rmarkdown on R Lille</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Fri, 26 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rlille.fr/tags/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rlille.netlify.app/tags/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How To Build A Package With The &#34;Rmd First&#34; Method</title>
-      <link>https://rlille.fr/post/2021-03-26-rmd-first-method/</link>
+      <link>https://rlille.netlify.app/post/2021-03-26-rmd-first-method/</link>
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rlille.fr/post/2021-03-26-rmd-first-method/</guid>
+      <guid>https://rlille.netlify.app/post/2021-03-26-rmd-first-method/</guid>
       <description>Bonjour à toutes et tous,
 R Lille organise un nouveau MeetUp sur le thème du développement à partir de Rmarkdown :
 How To Build A Package With The “Rmd First” Method
