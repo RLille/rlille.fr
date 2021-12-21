@@ -2,11 +2,11 @@ if (interactive()) {
   library(blogdown)
 
   options(
-    blogdown.hugo.version = "0.90.1",
+    blogdown.hugo.version = "0.91.0",
     blogdown.serve_site.startup = FALSE
   )
 
-  rebuild <- function(...) blogdown::build_site(..., build_rmd = "timestamp")
+  rebuild <- function(..., build_rmd = "timestamp") blogdown::build_site(..., build_rmd = build_rmd)
 
   update <- function() {
     install_theme(
