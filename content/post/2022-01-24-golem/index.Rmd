@@ -2,7 +2,7 @@
 title: De la Création au Déploiement d'Applications {shiny} avec {golem}
 author: Mickaël Canouil
 date: '2022-01-24'
-slug: 2022-01-24-golem2022-01-24-golem
+slug: 2022-01-24-golem
 categories:
   - MeetUp
   - R
