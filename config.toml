@@ -58,9 +58,14 @@ publishDir = "www"
     weight = 3
     
 [[menu.icon]]
-    url = "https://twitter.com/rlille_rug/"
+    url = "https://twitter.com/RLille_RUG"
     name = "fab fa-twitter"
     weight = 4
+    
+[[menu.icon]]
+    url = "https://rlille.slack.com"
+    name = "fab fa-slack"
+    weight = 5
 
 [markup]
   [markup.goldmark]
