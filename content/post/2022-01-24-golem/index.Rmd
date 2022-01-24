@@ -17,7 +17,7 @@ tags:
 
 Bonjour à toutes et tous,
  
-R Lille organise un nouveau MeetUp sur le thème :  
+**R Lille** et **Tunis R User group** organise un nouveau MeetUp sur le thème :  
 **De la Création au Déploiement d'Applications {shiny} avec {golem}**
 
 <!-- <center>
