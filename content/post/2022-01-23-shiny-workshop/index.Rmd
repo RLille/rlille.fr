@@ -1,8 +1,8 @@
 ---
 title: A la Découverte de la Création des Applications R {shiny}
 author: Mickaël Canouil
-date: '2022-02-05'
-slug: 2022-02-05-shiny-workshop
+date: '2022-01-23'
+slug: 2022-01-23-shiny-workshop
 categories:
   - MeetUp
   - R
@@ -50,8 +50,8 @@ Bonjour à toutes et tous,
 > \[Média Sociaux\]  
 > 
 > - Meetup : 
->   - <https://www.meetup.com/tunis-r-user-group
->   - <https://www.meetup.com/RLille
+>     - https://www.meetup.com/tunis-r-user-group
+>     - https://www.meetup.com/RLille
 > 
 > - Twitter :
 >     - https://twitter.com/TunisRUserGroup
