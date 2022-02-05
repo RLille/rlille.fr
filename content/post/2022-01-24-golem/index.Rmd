@@ -66,8 +66,8 @@ Bonjour à toutes et tous,
 > \[Média Sociaux\]  
 > 
 > - Meetup : 
->   - <https://www.meetup.com/tunis-r-user-group
->   - <https://www.meetup.com/RLille
+>   - https://www.meetup.com/tunis-r-user-group
+>   - https://www.meetup.com/RLille
 > 
 > - Twitter :
 >     - https://twitter.com/TunisRUserGroup
