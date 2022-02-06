@@ -14,7 +14,6 @@ tags:
   - web application
 ---
 
-
 Bonjour à toutes et tous,
  
 **R Lille** et **Tunis R User group** organise un nouveau MeetUp sur le thème :  

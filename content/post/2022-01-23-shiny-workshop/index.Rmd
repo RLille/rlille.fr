@@ -13,7 +13,6 @@ tags:
   - web application
 ---
 
-
 Bonjour à toutes et tous,
  
 **R Lille** et **Tunis R User group** organise un nouveau MeetUp sur le thème :  
@@ -25,7 +24,7 @@ Bonjour à toutes et tous,
 <center>
 <img src="https://raw.githubusercontent.com/Tunis-R-User-Group/Lille-Tunis-Meetups/main/meetups/2022-02-06/ads/2022-02-06.png" width = 384, height = auto>
 </center>
-  
+
 > [Résumé]  
 > Envie de partager vos plus beaux projets R ? Le package shiny permet de développer très facilement des applications web à partir de R. Grâce à cette librairie, et d'autres librairies R dédiées à la réalisation de graphiques, il est ainsi possible de générer des tableaux de bord, introduisant même des méthodes statistiques approfondies.
 > Shiny est à l'heure actuelle un must-know du "R World".
@@ -56,7 +55,7 @@ Bonjour à toutes et tous,
 > - Twitter :
 >     - https://twitter.com/TunisRUserGroup
 >     - https://twitter.com/RLille_RUG
-
+> 
 > - YouTube :
 >     - https://www.youtube.com/c/TunisRUserGroup
 >     - http://youtube.rlille.fr/
