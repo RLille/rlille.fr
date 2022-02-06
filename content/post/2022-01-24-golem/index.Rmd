@@ -27,7 +27,7 @@ Bonjour à toutes et tous,
 ![](images/2022-02-24.png)
 </center>
   
-> \[Résumé\]  
+> [Résumé]  
 > Vous souhaitez construire un application Shiny en suivant les meilleures
 > pratiques de développement ? Alors le package {golem} est ce qu'il vous
 > faut. Grâce à {golem}, chaque application Shiny est un… package 📦 ! Cela
@@ -37,7 +37,7 @@ Bonjour à toutes et tous,
 > déploiement et d'assurer sa durabilité, en développant un code documenté
 > et testé 🎉.
 > 
-> \[Biographie\]  
+> [Biographie]  
 > Margot Brard (<https://github.com/MargotBr>), docteure en statistique
 > appliquée, est consultante et formatrice R chez ThinkR
 > (<https://rtask.thinkr.fr/> et <https://thinkr.fr>).  
@@ -51,19 +51,19 @@ Bonjour à toutes et tous,
 > ce coup* - elle a développé avec {golem} une app Shiny pour leur mariage
 > : {wedding} (<https://github.com/ThinkR-open/wedding>).
 > 
-> \[A Propos\]  
+> [A Propos]  
 > Cet événement est organisé par les groupes R de Lille
 > (<https://rlille.fr/>) et Tunis.  
 > La langue du Meetup est le français.  
 > Le Meetup sera enregistré et rendu disponible sur YouTube.
 > 
-> \[Inscription\]  
+> [Inscription]  
 > Pour assister au Meetup, veuillez remplir ce court formulaire :
 > <https://tinyurl.com/y3avzb9s>  
 > Le lien Zoom sera envoyé par courriel après inscription et quelques
 > jours avant le début du Meetup.
 > 
-> \[Média Sociaux\]  
+> [Média Sociaux]  
 > 
 > - Meetup : 
 >   - https://www.meetup.com/tunis-r-user-group
