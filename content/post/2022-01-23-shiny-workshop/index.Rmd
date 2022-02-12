@@ -19,10 +19,10 @@ Bonjour à toutes et tous,
 **A la Découverte de la Création des Applications R {shiny}**
 
 <!-- <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<img src="https://raw.githubusercontent.com/Tunis-R-User-Group/Lille-Tunis-Meetups/main/meetups/2022-02-06/ads/2022-02-06.png" width = 384, height = auto>
 </center> -->
 <center>
-<img src="https://raw.githubusercontent.com/Tunis-R-User-Group/Lille-Tunis-Meetups/main/meetups/2022-02-06/ads/2022-02-06.png" width = 384, height = auto>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_tIzFNyYU-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
 > [Résumé]  
