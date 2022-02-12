@@ -41,8 +41,8 @@ Bonjour à toutes et tous,
 > Le Meetup sera enregistré et rendu disponible sur YouTube.
 > 
 > [Inscription]  
-> Pour assister au Meetup, veuillez remplir ce court formulaire :
-> ~~<https://tinyurl.com/464fn7x5>~~  
+> ~~Pour assister au Meetup, veuillez remplir ce court formulaire :
+> <https://tinyurl.com/464fn7x5>~~  
 > Le lien Zoom sera envoyé par courriel après inscription et quelques
 > jours avant le début du Meetup.
 > 
