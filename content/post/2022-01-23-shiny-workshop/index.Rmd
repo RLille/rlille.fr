@@ -19,10 +19,10 @@ Bonjour à toutes et tous,
 **A la Découverte de la Création des Applications R {shiny}**
 
 <!-- <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<img src="https://raw.githubusercontent.com/Tunis-R-User-Group/Lille-Tunis-Meetups/main/meetups/2022-02-06/ads/2022-02-06.png" width = 384, height = auto>
 </center> -->
 <center>
-<img src="https://raw.githubusercontent.com/Tunis-R-User-Group/Lille-Tunis-Meetups/main/meetups/2022-02-06/ads/2022-02-06.png" width = 384, height = auto>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_tIzFNyYU-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
 > [Résumé]  
@@ -41,8 +41,8 @@ Bonjour à toutes et tous,
 > Le Meetup sera enregistré et rendu disponible sur YouTube.
 > 
 > [Inscription]  
-> Pour assister au Meetup, veuillez remplir ce court formulaire :
-> <https://tinyurl.com/464fn7x5>  
+> ~~Pour assister au Meetup, veuillez remplir ce court formulaire :
+> <https://tinyurl.com/464fn7x5>~~  
 > Le lien Zoom sera envoyé par courriel après inscription et quelques
 > jours avant le début du Meetup.
 > 
@@ -71,7 +71,7 @@ Celui-ci sera présenté par **Mohamed Fodil, Ph.D.** et aura lieu le **dimanche
 
 Les inscriptions sont sur Meetup : http://meetup.rlille.fr/events/283741265/
 
-L'ensemble des diapositives sera mis à disposition sur GitHub : [https://github.com/Tunis-R-User-Group/Lille-Tunis-Meetups](https://github.com/Tunis-R-User-Group/Lille-Tunis-Meetups/tree/main/meetups/2022-02-26/materials)
+L'ensemble des diapositives/scripts/vidéo sera mis à disposition sur GitHub : [https://github.com/Tunis-R-User-Group/Lille-Tunis-Meetups](https://github.com/Tunis-R-User-Group/Lille-Tunis-Meetups/tree/main/meetups/2022-02-06/materials)
 
 Le Meetup sera enrigistré et diffusé sur Youtube (http://youtube.rlille.fr/).
 
