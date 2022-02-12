@@ -71,7 +71,7 @@ Celui-ci sera présenté par **Mohamed Fodil, Ph.D.** et aura lieu le **dimanche
 
 Les inscriptions sont sur Meetup : http://meetup.rlille.fr/events/283741265/
 
-L'ensemble des diapositives sera mis à disposition sur GitHub : [https://github.com/Tunis-R-User-Group/Lille-Tunis-Meetups](https://github.com/Tunis-R-User-Group/Lille-Tunis-Meetups/tree/main/meetups/2022-02-06/materials)
+L'ensemble des diapositives/scripts/vidéo sera mis à disposition sur GitHub : [https://github.com/Tunis-R-User-Group/Lille-Tunis-Meetups](https://github.com/Tunis-R-User-Group/Lille-Tunis-Meetups/tree/main/meetups/2022-02-06/materials)
 
 Le Meetup sera enrigistré et diffusé sur Youtube (http://youtube.rlille.fr/).
 
