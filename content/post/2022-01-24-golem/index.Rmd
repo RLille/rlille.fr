@@ -27,7 +27,7 @@ Bonjour à toutes et tous,
 </center>
   
 > [Résumé]  
-> Vous souhaitez construire un application Shiny en suivant les meilleures
+> Vous souhaitez construire une application Shiny en suivant les meilleures
 > pratiques de développement ? Alors le package {golem} est ce qu'il vous
 > faut. Grâce à {golem}, chaque application Shiny est un… package 📦 ! Cela
 > vous permettra de faciliter la création de votre application, en
