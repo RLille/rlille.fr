@@ -19,12 +19,12 @@ Bonjour à toutes et tous,
 **R Lille** et **Tunis R User group** organise un nouveau MeetUp sur le thème :  
 **De la Création au Déploiement d'Applications {shiny} avec {golem}**
 
-<!-- <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center> -->
 <center>
-![](images/2022-02-24.png)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nfP-mGIsqVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
+<!-- <center>
+![](images/2022-02-24.png)
+</center> -->
   
 > [Résumé]  
 > Vous souhaitez construire une application Shiny en suivant les meilleures
