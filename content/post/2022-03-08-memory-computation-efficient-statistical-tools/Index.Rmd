@@ -20,9 +20,7 @@ Bonjour à toutes et tous,
 R Lille organise un nouveau MeetUp :  
 **Memory- and Computation-Efficient Statistical Tools for Big Matrices**
 
-Celui-ci sera présenté par **Florian Privé** et aura lieu le **Thursday,
-the 7<sup><i style="font-size:0.5em;">th</i></sup> of April, 2022 -
-18:00 CET**.
+Celui-ci sera présenté par **Florian Privé** et aura lieu le **Thursday, the 7<sup><i style="font-size:0.5em;">th</i></sup> of April, 2022 - 18:00 CET**.
 
 <!-- <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -68,7 +66,7 @@ the 7<sup><i style="font-size:0.5em;">th</i></sup> of April, 2022 -
 > Twitter and GitHub as @privefl.
 >
 > *[A Propos]*  
-> This event (in English) is organised by the R Lille user group (<£https://rlille.fr/>) (Lille, France).
+> This event (in English) is organised by the R Lille user group (<https://rlille.fr/>) (Lille, France).
 > The meetup will be recorded and made available on YouTube (<http://youtube.rlille.fr/>).
 
 Les inscriptions sont sur Meetup :
