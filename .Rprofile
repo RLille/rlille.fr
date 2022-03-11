@@ -2,7 +2,7 @@ if (interactive()) {
   library(blogdown)
 
   options(
-    blogdown.hugo.version = "0.92.2",
+    blogdown.hugo.version = "0.93.3",
     blogdown.serve_site.startup = FALSE
   )
 
