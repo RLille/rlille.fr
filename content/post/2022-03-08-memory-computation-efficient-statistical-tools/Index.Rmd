@@ -31,7 +31,7 @@ the 7<sup><i style="font-size:0.5em;">th</i></sup> of April, 2022 -
 <img alt="Affiche Meetup R Lille - 2022-04-07" src="https://raw.githubusercontent.com/RLille/meetups/main/meetups/2022-04-07/ads/2022-04-07.png" width="560" height="auto" />
 </center>
 
-> *\[Résumé\]*  
+> *[Résumé]*  
 > R package {bigstatsr} (<https://github.com/privefl/bigstatsr>)
 > provides functions for fast statistical analysis of large-scale data
 > encoded as matrices. The package can handle matrices that are too
@@ -61,15 +61,15 @@ the 7<sup><i style="font-size:0.5em;">th</i></sup> of April, 2022 -
 > on-disk sparse matrix format, and {bigsnpr}, which extends {bigstatsr}
 > to provide specific tools for analyzing genotype data.
 >
-> *\[Bio\]*  
+> *[Bio]*  
 > Florian Privé is a senior researcher in predictive human genetics,
 > fond of Data Science and an R(cpp) enthusiast. He is also the founder
 > and former organizer of the Grenoble R user group. You can find him on
 > Twitter and GitHub as @privefl.
 >
-> *\[A Propos\]*  
-> Cet événement est organisé par R Lille (<https://rlille.fr/>) (Lille,
-> France) et aura lieu en anglais.
+> *[A Propos]*  
+> This event (in English) is organised by the R Lille user group (<£https://rlille.fr/>) (Lille, France).
+> The meetup will be recorded and made available on YouTube (<http://youtube.rlille.fr/>).
 
 Les inscriptions sont sur Meetup :
 <http://meetup.rlille.fr/events/284358899>
