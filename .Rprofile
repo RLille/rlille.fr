@@ -1,8 +1,9 @@
 if (interactive()) {
+  if (file.exists("~/.Rprofile")) source("~/.Rprofile")
   library(blogdown)
 
   options(
-    blogdown.hugo.version = "0.93.3",
+    blogdown.hugo.version = "0.95.0",
     blogdown.serve_site.startup = FALSE
   )
 
