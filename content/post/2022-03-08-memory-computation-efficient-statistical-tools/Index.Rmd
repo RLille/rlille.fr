@@ -22,12 +22,12 @@ R Lille organise un nouveau MeetUp :
 
 Celui-ci sera présenté par **Florian Privé** et aura lieu le **Thursday, the 7<sup><i style="font-size:0.5em;">th</i></sup> of April, 2022 - 18:00 CET**.
 
-<!-- <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center> -->
 <center>
-<img alt="Affiche Meetup R Lille - 2022-04-07" src="https://raw.githubusercontent.com/RLille/meetups/main/meetups/2022-04-07/ads/2022-04-07.png" width="560" height="auto" />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UXKYqpAo6cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
+<!-- <center>
+<img alt="Affiche Meetup R Lille - 2022-04-07" src="https://raw.githubusercontent.com/RLille/meetups/main/meetups/2022-04-07/ads/2022-04-07.png" width="560" height="auto" />
+</center> -->
 
 > *[Résumé]*  
 > R package {bigstatsr} (<https://github.com/privefl/bigstatsr>)
