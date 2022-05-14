@@ -9,7 +9,7 @@ categories:
 
 Bonjour à toutes et tous,
  
-R Lille (le groupe des utilisateurs de R) organise son premier MeetUp&nbsp;:  
+R Lille (le groupe des utilisateurs•rices de R) organise son premier MeetUp&nbsp;:  
 **"Débuter" avec R en Commençant par le Début ...**
 
 ![Affiche Événement](https://raw.githubusercontent.com/RLille/meetups/main/meetups/2020-10-07/ads/2020-10-07.png)

@@ -22,7 +22,7 @@ about:
       href: https://rlille.slack.com/
 ---
 
-R Lille est le groupe des utilisateurs de R de Lille (et sa région) et a été créé début février 2020.
+R Lille est le groupe des utilisateurs•rices de R de Lille (et sa région) et a été créé début février 2020.
 
 Vous utilisez R pour le travail et/ou le loisir&nbsp;?
 Vous êtes curieux, débutant ou expert en R&nbsp;?

@@ -9,7 +9,7 @@ categories:
 
 Bonjour à toutes et tous,
  
-R Lille (le groupe des utilisateurs de R) organise son second MeetUp&nbsp;:  
+R Lille (le groupe des utilisateurs•rices de R) organise son second MeetUp&nbsp;:  
 **'flexdashboard' Pour Des Tableaux de Bords (HTML) Interactifs**
 
 ![Affiche Événement](https://raw.githubusercontent.com/RLille/meetups/main/meetups/2020-10-30/ads/2020-10-30.png)

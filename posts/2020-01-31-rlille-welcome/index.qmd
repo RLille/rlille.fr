@@ -9,7 +9,7 @@ categories:
 
 Bonjour à toutes et tous,
  
-Pour information, depuis très récemment, il existe un groupe des utilisateurs du logiciel/langage R à Lille.
+Pour information, depuis très récemment, il existe un groupe des utilisateurs•rices du logiciel/langage R à Lille.
 
 ![Affiche Événement](https://raw.githubusercontent.com/RLille/meetups/main/meetups/2020-01-31/ads/2020-01-31.png)
 
@@ -23,7 +23,7 @@ Pour information, depuis très récemment, il existe un groupe des utilisateurs 
 > 
 > Si la réponse est "oui" à l'une de ses questions, rejoignez-nous sans plus tarder&nbsp;!
  
-L'idée du groupe (soutenu par le R Consortium, <https://www.r-consortium.org/>) est de mettre en relation les utilisateurs de R de Lille et sa région et ce peu importe le domaine d'application ou le niveau des utilisateurs en question.
+L'idée du groupe (soutenu par le R Consortium, <https://www.r-consortium.org/>) est de mettre en relation les utilisateurs•rices de R de Lille et sa région et ce peu importe le domaine d'application ou le niveau des utilisateurs•rices en question.
 
 <center>![](/media/RConsortium_Horizontal_Pantone.png){width=50%}</center>
 
