@@ -1,9 +1,8 @@
 project:
   type: website
-  output-dir: www
 website:
-  title: "R Lille"
-  description: "Groupe des Utilisateurs de R de Lille"
+  title: "R Lille - Groupe des Utilisateurs•rices R de Lille"
+  description: "Groupe des Utilisateurs•rices de R de Lille"
   favicon: /media/icon.svg
   image: /media/icon.svg
   site-url: https://rlille.fr
