@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>R Lille</title>
+<link>https://rlille.fr/index.html</link>
+<atom:link href="https://rlille.fr/index.xml" rel="self" type="application/rss+xml"/>
+<description>Groupe des Utilisateurs de R de Lille</description>
+<image>
+<url>https://rlille.fr//media/icon.svg</url>
+<title>R Lille</title>
+<link>https://rlille.fr/index.html</link>
+</image>
+<generator>quarto-0.9.399</generator>
+<lastBuildDate>Mon, 07 Mar 2022 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Memory- and Computation-Efficient Statistical Tools for Big Matrices</title>
+  <dc:creator>[Mickaël CANOUIL](https://mickael.canouil.fr/)</dc:creator>
+  <link>https://rlille.fr/posts/2022-03-08-memory-computation-efficient-statistical-tools/Index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Bonjour à toutes et tous,</p>
+<p>R Lille organise un nouveau MeetUp&nbsp;:<br>
+<strong>Memory- and Computation-Efficient Statistical Tools for Big Matrices</strong></p>
+<p>Celui-ci sera présenté par <strong>Florian Privé</strong> et aura lieu le <strong>Thursday, the 7<sup><i style="font-size:0.5em;">th</i></sup> of April, 2022 - 18:00 CET</strong>.</p>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UXKYqpAo6cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+</center>
+<!-- <center>
+![Affiche Événement](https://raw.githubusercontent.com/RLille/meetups/main/meetups/2022-04-07/ads/2022-04-07.png)
+</center> -->
+<blockquote class="blockquote">
+<p><em>[Résumé]</em><br>
+R package {bigstatsr} (<a href="https://github.com/privefl/bigstatsr" class="uri">https://github.com/privefl/bigstatsr</a>) provides functions for fast statistical analysis of large-scale data encoded as matrices. The package can handle matrices that are too large to fit in memory. The Package {bigstatsr} is based on a similar format (called <code>FBM</code>) as the format <code>big.matrix</code> provided by the R package {bigmemory}. The Package {bigstatsr} enables users with a laptop to perform statistical analysis of several dozens of gigabytes of data, and HPC users to handle matrices of hundreds of GB. The package is fast and efficient because of four different reasons. First, {bigstatsr} is memory-efficient because it uses only small chunks of data at a time. Second, special care has been taken to implement effective algorithms. Third, <code>FBM</code> objects use memory-mapping, which provides efficient accesses to matrices. Finally, as matrices are stored on-disk, many processes can easily access them in parallel.</p>
+<p>The main features currently available in {bigstatsr} are:</p>
+<ul>
+<li>truncated SVD/PCA,</li>
+<li>penalized linear/logistic regressions,</li>
+<li>column-wise linear/logistic regressions tests,</li>
+<li>matrix operations,</li>
+<li>parallelization / split-apply-combine stategy.</li>
+</ul>
+<p>In this webinar, I will present this package and its features, as well as quickly present two other packages, {bigsparser}, which provides an on-disk sparse matrix format, and {bigsnpr}, which extends {bigstatsr} to provide specific tools for analyzing genotype data.</p>
+<p><em>[Bio]</em><br>
+Florian Privé is a senior researcher in predictive human genetics, fond of Data Science and an R(cpp) enthusiast. He is also the founder and former organizer of the Grenoble R user group. You can find him on Twitter and GitHub as <span class="citation" data-cites="privefl">@privefl</span>.</p>
+<p><em>[A Propos]</em><br>
+This event (in English) is organised by the R Lille user group (<a href="https://rlille.fr/" class="uri">https://rlille.fr/</a>) (Lille, France). The meetup will be recorded and made available on YouTube (<a href="http://youtube.rlille.fr/" class="uri">http://youtube.rlille.fr/</a>).</p>
+</blockquote>
+<p>Les inscriptions sont sur Meetup&nbsp;: <a href="http://meetup.rlille.fr/events/284358899" class="uri">http://meetup.rlille.fr/events/284358899</a></p>
+<p>L’ensemble des diapositives sera mis à disposition sur le GitHub du groupe&nbsp;: <a href="https://github.com/RLille/meetups/tree/main/meetups/2022-04-07/materials" class="uri">https://github.com/RLille/meetups/tree/main/meetups/2022-04-07/materials</a></p>
+<p>Le Meetup sera enregistré et diffusé sur Youtube (<a href="http://youtube.rlille.fr/" class="uri">http://youtube.rlille.fr/</a>).</p>
+<p>À bientôt&nbsp;!<br>
+Mickaël CANOUIL</p>
+
+
+
+ ]]></description>
+  <category>Meetup</category>
+  <category>Anglais</category>
+  <guid>https://rlille.fr/posts/2022-03-08-memory-computation-efficient-statistical-tools/Index.html</guid>
+  <pubDate>Mon, 07 Mar 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://raw.githubusercontent.com/RLille/meetups/main/meetups/2022-04-07/ads/2022-04-07.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>De la Création au Déploiement d’Applications {shiny} avec {golem}</title>
+  <dc:creator>[Mickaël CANOUIL](https://mickael.canouil.fr/)</dc:creator>
+  <link>https://rlille.fr/posts/2022-01-24-golem/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Bonjour à toutes et tous,</p>
+<p><strong>R Lille</strong> et <strong>Tunis R User group</strong> organise un nouveau MeetUp sur le thème&nbsp;:<br>
+<strong>De la Création au Déploiement d’Applications {shiny} avec {golem}</strong></p>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nfP-mGIsqVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+</center>
+<!-- <center>
+![Affiche Événement](https://raw.githubusercontent.com/Tunis-R-User-Group/Lille-Tunis-Meetups/main/meetups/2022-02-24/ads/2022-02-24.png)
+![](https://raw.githubusercontent.com/RLille/meetups/main/meetups/2022-02-24/ads/2022-02-24.png)
+</center> -->
+<blockquote class="blockquote">
+<p>[Résumé]<br>
+Vous souhaitez construire une application Shiny en suivant les meilleures pratiques de développement&nbsp;? Alors le package {golem} est ce qu’il vous faut. Grâce à {golem}, chaque application Shiny est un… package 📦&nbsp;! Cela vous permettra de faciliter la création de votre application, en automatisant les tâches <del>ennuyantes</del> répétitives par lesquelles vous devrez nécessairement passer. Cela vous permettra aussi de faciliter son déploiement et d’assurer sa durabilité, en développant un code documenté et testé 🎉.</p>
+<p>[Biographie]<br>
+Margot Brard (<a href="https://github.com/MargotBr" class="uri">https://github.com/MargotBr</a>), docteure en statistique appliquée, est consultante et formatrice R chez ThinkR (<a href="https://rtask.thinkr.fr/" class="uri">https://rtask.thinkr.fr/</a> et <a href="https://thinkr.fr" class="uri">https://thinkr.fr</a>).<br>
+Elle y forme des apprenants à l’utilisation de R pour l’analyse de données et au développement de packages. Elle participe également au développement de packages R pour différents clients (entreprises privées, institutions publiques, etc.).<br>
+Elle est la lauréate de l’édition 2021 du Shiny Contest (<a href="https://blog.rstudio.com/2021/06/24/winners-of-the-3rd-annual-shiny-contest/" class="uri">https://blog.rstudio.com/2021/06/24/winners-of-the-3rd-annual-shiny-contest/</a>). Au grand désespoir de son mari - <em>qui l’a trouvée un peu trop geek sur ce coup</em> - elle a développé avec {golem} une app Shiny pour leur mariage &nbsp;: {wedding} (<a href="https://github.com/ThinkR-open/wedding" class="uri">https://github.com/ThinkR-open/wedding</a>).</p>
+<p>[A Propos]<br>
+Cet événement est organisé par les groupes R de Lille (<a href="https://rlille.fr/" class="uri">https://rlille.fr/</a>) et Tunis.<br>
+La langue du Meetup est le français.<br>
+Le Meetup sera enregistré et rendu disponible sur YouTube.</p>
+<p>[Inscription]<br>
+Pour assister au Meetup, veuillez remplir ce court formulaire&nbsp;: <a href="https://tinyurl.com/y3avzb9s" class="uri">https://tinyurl.com/y3avzb9s</a><br>
+Le lien Zoom sera envoyé par courriel après inscription et quelques jours avant le début du Meetup.</p>
+<p>[Média Sociaux]</p>
+<ul>
+<li>Meetup&nbsp;:
+<ul>
+<li><a href="https://www.meetup.com/tunis-r-user-group" class="uri">https://www.meetup.com/tunis-r-user-group</a></li>
+<li><a href="https://www.meetup.com/R-Lille" class="uri">https://www.meetup.com/R-Lille</a></li>
+</ul></li>
+<li>Twitter&nbsp;:
+<ul>
+<li><a href="https://twitter.com/TunisRUserGroup" class="uri">https://twitter.com/TunisRUserGroup</a></li>
+<li><a href="https://twitter.com/RLille_RUG" class="uri">https://twitter.com/RLille_RUG</a></li>
+</ul></li>
+<li>YouTube&nbsp;:
+<ul>
+<li><a href="https://www.youtube.com/c/TunisRUserGroup" class="uri">https://www.youtube.com/c/TunisRUserGroup</a></li>
+<li><a href="http://youtube.rlille.fr/" class="uri">http://youtube.rlille.fr/</a></li>
+</ul></li>
+<li>Instagram&nbsp;:
+<ul>
+<li><a href="https://www.instagram.com/tunisrusergroup/" class="uri">https://www.instagram.com/tunisrusergroup/</a></li>
+</ul></li>
+<li>Slack&nbsp;:
+<ul>
+<li><a href="https://rlille.slack.com/" class="uri">https://rlille.slack.com/</a></li>
+</ul></li>
+</ul>
+</blockquote>
+<p>Celui-ci sera présenté par <strong>Margot Brard, Ph.D.</strong> et aura lieu le <strong>jeudi 24 février 2022 à 18 h 30 (CET / UTC + 1)</strong> en ligne.</p>
+<p>Les inscriptions sont sur Meetup&nbsp;: <a href="http://meetup.rlille.fr/events/283419297/" class="uri">http://meetup.rlille.fr/events/283419297/</a></p>
+<p>L’ensemble des diapositives sera mis à disposition sur GitHub&nbsp;: <a href="https://github.com/Tunis-R-User-Group/Lille-Tunis-Meetups/tree/main/meetups/2022-02-24/materials">https://github.com/Tunis-R-User-Group/Lille-Tunis-Meetups</a></p>
+<p>Le Meetup sera enrigistré et diffusé sur Youtube (<a href="http://youtube.rlille.fr/" class="uri">http://youtube.rlille.fr/</a>).</p>
+<p>À bientôt&nbsp;!<br>
+Mickaël CANOUIL</p>
+
+
+
+ ]]></description>
+  <category>Meetup</category>
+  <category>Français</category>
+  <guid>https://rlille.fr/posts/2022-01-24-golem/index.html</guid>
+  <pubDate>Sun, 23 Jan 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://raw.githubusercontent.com/Tunis-R-User-Group/Lille-Tunis-Meetups/main/meetups/2022-02-24/ads/2022-02-24.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>A la Découverte de la Création des Applications R {shiny}</title>
+  <dc:creator>[Mickaël CANOUIL](https://mickael.canouil.fr/)</dc:creator>
+  <link>https://rlille.fr/posts/2022-01-23-shiny-workshop/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Bonjour à toutes et tous,</p>
+<p><strong>R Lille</strong> et <strong>Tunis R User group</strong> organise un nouveau MeetUp sur le thème&nbsp;:<br>
+<strong>A la Découverte de la Création des Applications R {shiny}</strong></p>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_tIzFNyYU-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+</center>
+<!-- <center>
+![Affiche Événement](https://raw.githubusercontent.com/Tunis-R-User-Group/Lille-Tunis-Meetups/main/meetups/2022-02-06/ads/2022-02-06.png)
+![](https://raw.githubusercontent.com/RLille/meetups/main/meetups/2022-02-06/ads/2022-02-06.png)
+</center> -->
+<blockquote class="blockquote">
+<p>[Résumé]<br>
+Envie de partager vos plus beaux projets R&nbsp;? Le package shiny permet de développer très facilement des applications web à partir de R. Grâce à cette librairie, et d’autres librairies R dédiées à la réalisation de graphiques, il est ainsi possible de générer des tableaux de bord, introduisant même des méthodes statistiques approfondies. Shiny est à l’heure actuelle un must-know du “R World”.</p>
+<p>[Biographie]<br>
+Mohamed Fodil est un instructeur certifié de R Studio. Il a obtenu un doctorat en économie. Fodil est l’auteur de deux packages R&nbsp;: ralger pour faciliter le scraping web et BARIS pour travailler avec l’API du portail français de données ouvertes. Il aime partager ses connaissances en science des données par le biais d’activités d’enseignement, et son package R préféré est ggplot2.</p>
+<p>[A Propos]<br>
+Cet événement est organisé par les groupes R de Lille (<a href="https://rlille.fr/" class="uri">https://rlille.fr/</a>) et Tunis.<br>
+La langue du Meetup est le français.<br>
+Le Meetup sera enregistré et rendu disponible sur YouTube.</p>
+<p>[Inscription]<br>
+<del>Pour assister au Meetup, veuillez remplir ce court formulaire&nbsp;: <a href="https://tinyurl.com/464fn7x5" class="uri">https://tinyurl.com/464fn7x5</a></del><br>
+Le lien Zoom sera envoyé par courriel après inscription et quelques jours avant le début du Meetup.</p>
+<p>[Média Sociaux]</p>
+<ul>
+<li>Meetup&nbsp;:
+<ul>
+<li><a href="https://www.meetup.com/tunis-r-user-group" class="uri">https://www.meetup.com/tunis-r-user-group</a></li>
+<li><a href="https://www.meetup.com/R-Lille" class="uri">https://www.meetup.com/R-Lille</a></li>
+</ul></li>
+<li>Twitter&nbsp;:
+<ul>
+<li><a href="https://twitter.com/TunisRUserGroup" class="uri">https://twitter.com/TunisRUserGroup</a></li>
+<li><a href="https://twitter.com/RLille_RUG" class="uri">https://twitter.com/RLille_RUG</a></li>
+</ul></li>
+<li>YouTube&nbsp;:
+<ul>
+<li><a href="https://www.youtube.com/c/TunisRUserGroup" class="uri">https://www.youtube.com/c/TunisRUserGroup</a></li>
+<li><a href="http://youtube.rlille.fr/" class="uri">http://youtube.rlille.fr/</a></li>
+</ul></li>
+<li>Instagram&nbsp;:
+<ul>
+<li><a href="https://www.instagram.com/tunisrusergroup/" class="uri">https://www.instagram.com/tunisrusergroup/</a></li>
+</ul></li>
+<li>Slack&nbsp;:
+<ul>
+<li><a href="https://rlille.slack.com/" class="uri">https://rlille.slack.com/</a></li>
+</ul></li>
+</ul>
+</blockquote>
+<p>Celui-ci sera présenté par <strong>Mohamed Fodil, Ph.D.</strong> et aura lieu le <strong>dimanche 6 février 2022 à 18 h 00 (CET / UTC + 1)</strong> en ligne.</p>
+<p>Les inscriptions sont sur Meetup&nbsp;: <a href="http://meetup.rlille.fr/events/283741265/" class="uri">http://meetup.rlille.fr/events/283741265/</a></p>
+<p>L’ensemble des diapositives/scripts/vidéo sera mis à disposition sur GitHub&nbsp;: <a href="https://github.com/Tunis-R-User-Group/Lille-Tunis-Meetups/tree/main/meetups/2022-02-06/materials">https://github.com/Tunis-R-User-Group/Lille-Tunis-Meetups</a></p>
+<p>Le Meetup sera enrigistré et diffusé sur Youtube (<a href="http://youtube.rlille.fr/" class="uri">http://youtube.rlille.fr/</a>).</p>
+<p>À bientôt&nbsp;!<br>
+Mickaël CANOUIL</p>
+
+
+
+ ]]></description>
+  <category>Meetup</category>
+  <category>Français</category>
+  <guid>https://rlille.fr/posts/2022-01-23-shiny-workshop/index.html</guid>
+  <pubDate>Sat, 22 Jan 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://raw.githubusercontent.com/Tunis-R-User-Group/Lille-Tunis-Meetups/main/meetups/2022-02-06/ads/2022-02-06.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>Analyse Spatiale Sous R, Avec L’Extension {sf}</title>
+  <dc:creator>Julien HAMONIER</dc:creator>
+  <link>https://rlille.fr/posts/2021-10-26-spatial-analysis-sf/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Bonjour à toutes et tous,</p>
+<p>R Lille organise un nouveau MeetUp sur le thème&nbsp;:<br>
+<strong>Analyse Spatiale Sous R, Avec L’Extension {sf}</strong></p>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NSbnWCjTfGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+</center>
+<!-- <center>
+![Affiche Événement](https://raw.githubusercontent.com/RLille/meetups/main/meetups/2021-11-18/ads/2021-11-18.png)
+</center> -->
+<blockquote class="blockquote">
+<p><em>[Résumé]</em><br>
+Bien qu’initialement non conçus spécifiquement pour l’analyse spatiale, un certain nombre de packages ont émergé sur le logiciel R.<br>
+Les trois principaux sont {rgdal} qui permettait d’importer des données spatiales (shapefile, …), {sp} qui fournit les outils pour analyser les données, les mettre en formes, etc., et {rgeos} qui permet les opérations de &gt; SIG classique (calculs de distances, calculs de périmètre, intersection, etc.).</p>
+<p>Le package {sf} pour “simple feature” est un package de simplification. Il permet d’exploiter tous les types de données spatiales que ce soit des analyses de points, des découpages administratifs ou encore des grilles. Grâce à sa panoplie rationalisée de fonction, il permet avec un minimum de fonctions d’importer/exporter, de manipuler/traiter les données et de les présenter de façon simple. Et tout cela en un seul package au lieu de trois auparavant!</p>
+<p>À cela s’ajoute sa syntaxe claire et normée, ainsi toutes ses fonctions commençant par “st_” sont faciles à retrouver.</p>
+<p>Si le format des données peut paraître complexe au premier abord, il interagit facilement avec d’autres packages. Ainsi, la sélection d’observation est facilitée avec le package {dplyr} et la visualisation des données est aisée via “ggplot”.</p>
+<p><em>[Bio]</em><br>
+Aniss Louchez est doctorant en économie de la santé sur la thématique de l’intégration territoriale, sociale et économique des officines.</p>
+<p><em>[A Propos]</em><br>
+Cet événement est organisé par R Lille (<a href="https://rlille.fr/" class="uri">https://rlille.fr/</a>) (Lille, France) et aura lieu en français.</p>
+</blockquote>
+<p>Celui-ci sera présenté par <strong>Aniss Louchez</strong> et aura lieu le <strong>jeudi 18 novembre 2021 à 13 h 00 (CET / UTC + 1)</strong> en ligne.</p>
+<p>Les inscriptions sont sur Meetup&nbsp;: <a href="http://meetup.rlille.fr/events/281653108/" class="uri">http://meetup.rlille.fr/events/281653108/</a></p>
+<p>L’ensemble des diapositives sera mis à disposition sur le GitHub du groupe&nbsp;: <a href="https://github.com/RLille/meetups" class="uri">https://github.com/RLille/meetups</a></p>
+<p>Le Meetup sera enrigistré et diffusé sur Youtube (<a href="http://youtube.rlille.fr/" class="uri">http://youtube.rlille.fr/</a>).</p>
+<p>À bientôt&nbsp;!<br>
+Julien HAMONIER</p>
+
+
+
+ ]]></description>
+  <category>Meetup</category>
+  <category>Français</category>
+  <guid>https://rlille.fr/posts/2021-10-26-spatial-analysis-sf/index.html</guid>
+  <pubDate>Mon, 25 Oct 2021 22:00:00 GMT</pubDate>
+  <media:content url="https://raw.githubusercontent.com/RLille/meetups/main/meetups/2021-11-18/ads/2021-11-18.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>Être Un•e Utilisateur•rice De R Résilient•e</title>
+  <dc:creator>[Mickaël CANOUIL](https://mickael.canouil.fr/)</dc:creator>
+  <link>https://rlille.fr/posts/2021-10-05-resilient-r-user/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Bonjour à toutes et tous,</p>
+<p>R Lille organise un nouveau MeetUp&nbsp;:<br>
+<strong>Être un•e utilisateur•rice de R résilient•e</strong></p>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jt0-x_w1Rzw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+</center>
+<!-- <center>
+![Affiche Événement](https://raw.githubusercontent.com/RLille/meetups/main/meetups/2021-12-02/ads/2021-12-02.png)
+</center> -->
+<blockquote class="blockquote">
+<p><em>[Résumé]</em><br>
+Apprendre R est une excellente idée pour réaliser différentes tâches au travail.<br>
+Cependant, même une fois passé·e au-delà de “Bonjour Monde”, vous continuerez régulièrement à avoir des problèmes dans R …<br>
+Triste constat&nbsp;? Non, car vous apprendrez aussi à devenir un·e utilisateur·rice de R résilient·e&nbsp;!</p>
+<p><em>[Bio]</em><br>
+Maëlle Salmon (<a href="https://masalmon.eu/" class="uri">https://masalmon.eu/</a>), docteure en statistique, travaille avec R depuis des années.<br>
+Elle essaie tant bien que mal de suivre ses propres conseils pour ne pas se laisser décourager par des erreurs.&nbsp;:-)<br>
+Elle est ingénieure de programmation pour la recherche à temps partiel pour <a href="https://ropensci.org/">rOpenSci</a>, et réalise d’autres missions souvent en lien avec le développement de paquets. Elle a par exemple crée le <a href="https://blog.r-hub.io/">blog R-hub</a>.<br>
+Par ailleurs, elle est éditrice bénévole pour le système de revue de paquets de <a href="https://ropensci.org/">rOpenSci</a> et gère le compte Twitter de <a href="https://twitter.com/RLadiesGlobal">R-Ladies Global</a>.</p>
+<p><em>[A Propos]</em><br>
+Cet événement est organisé par <a href="https://rlille.fr">R Lille</a> (Lille, France) et aura lieu en français.</p>
+</blockquote>
+<p>Celui-ci sera présenté par <strong>Maëlle Salmon</strong> (<a href="https://masalmon.eu/" class="uri">https://masalmon.eu/</a>) sur invitation de <strong>R Lille</strong> et aura lieu le <strong>jeudi 2 décembre 2021 à 12 h 00 (CET / UTC + 1)</strong> en ligne.</p>
+<p>Les inscriptions sont sur Meetup&nbsp;: <a href="http://meetup.rlille.fr/events/281225809/" class="uri">http://meetup.rlille.fr/events/281225809/</a></p>
+<p>L’ensemble des diapositives sera mis à disposition sur le GitHub du groupe&nbsp;: <a href="https://github.com/RLille/meetups" class="uri">https://github.com/RLille/meetups</a></p>
+<p>Le Meetup sera enrigistré et diffusé sur Youtube (<a href="http://youtube.rlille.fr/" class="uri">http://youtube.rlille.fr/</a>).</p>
+<p>À bientôt&nbsp;!<br>
+Mickaël CANOUIL</p>
+
+
+
+ ]]></description>
+  <category>Meetup</category>
+  <category>Français</category>
+  <guid>https://rlille.fr/posts/2021-10-05-resilient-r-user/index.html</guid>
+  <pubDate>Mon, 04 Oct 2021 22:00:00 GMT</pubDate>
+  <media:content url="https://raw.githubusercontent.com/RLille/meetups/main/meetups/2021-12-02/ads/2021-12-02.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>Reproducible Computation At Scale In R With {targets}</title>
+  <dc:creator>[Mickaël CANOUIL](https://mickael.canouil.fr/)</dc:creator>
+  <link>https://rlille.fr/posts/2021-05-02-reproducible-computation-targets/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Bonjour à toutes et tous,</p>
+<p>R Lille organise un nouveau MeetUp sur le thème de la reproductibilité des analyses&nbsp;:<br>
+<strong>Reproducible Computation at Scale in R with {targets}</strong></p>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FODSavXGjYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+</center>
+<!-- <center>
+![Affiche Événement](https://raw.githubusercontent.com/RLille/meetups/main/meetups/2021-06-17/ads/2021-06-17.png)
+</center> -->
+<blockquote class="blockquote">
+<p><em>[Résumé]</em><br>
+L’extension R {targets} (<a href="https://docs.ropensci.org/targets/" class="uri">https://docs.ropensci.org/targets/</a>) améliore la reproductibilité, la mise à l’échelle et la maintenabilité des projets de science des données dans des domaines utilisants des méthodes de calcul intensif tels que l’apprentissage automatique, l’analyse de données bayésiennes et la statistique génomique. {targets} identifie la structure de dépendance des éléments du pipeline d’analyse, ignore les tâches à jour, exécute le reste et gère le stockage des données, tout en offrant des options de calcul distribué. {stantargets} (<a href="https://docs.ropensci.org/stantargets/" class="uri">https://docs.ropensci.org/stantargets/</a>) et extensions similaires, étendent {targets} pour simplifier la construction de pipelines pour des domaines d’application spécifiques, tels que la validation de modèles bayésiens.</p>
+<p><em>[Bio]</em><br>
+Will Landau (<a href="https://wlandau.github.io/" class="uri">https://wlandau.github.io/</a>) travaille pour Eli Lilly and Company (<a href="https://www.lilly.com/" class="uri">https://www.lilly.com/</a>) où il développe des méthodes et des outils pour les statisticiens/cliniciens. Il est le créateur et le mainteneur des extensions R {targets} et {drake}. Will a obtenu son doctorat en statistique à l’Université d’État de l’Iowa en 2016, durant laquelle il a appliqué des méthodes bayésiennes, des modèles hiérarchiques et réalisé du calcul GPU dans le cadre d’analyse de données RNA-seq.</p>
+<p><em>[A Propos]</em><br>
+Cet événement est organisé par R Lille (Lille, France) et aura lieu en anglais.</p>
+</blockquote>
+<p>Celui-ci sera présenté par <strong>Will Landau</strong> sur invitation de <strong>R Lille</strong> et aura lieu le <strong>jeudi 17 juin 2021 à 18 h 00 (CEST / UTC + 2)</strong> en ligne.</p>
+<p>Les inscriptions sont sur Meetup&nbsp;: <a href="http://meetup.rlille.fr/events/277902715/" class="uri">http://meetup.rlille.fr/events/277902715/</a></p>
+<p>L’ensemble des diapositives sera mis à disposition sur le GitHub du groupe&nbsp;: <a href="https://github.com/RLille/meetups" class="uri">https://github.com/RLille/meetups</a></p>
+<p>Le Meetup sera enrigistré et diffusé sur Youtube (<a href="http://youtube.rlille.fr/" class="uri">http://youtube.rlille.fr/</a>).</p>
+<p>À bientôt&nbsp;!<br>
+Mickaël CANOUIL</p>
+
+
+
+ ]]></description>
+  <category>Meetup</category>
+  <category>Anglais</category>
+  <guid>https://rlille.fr/posts/2021-05-02-reproducible-computation-targets/index.html</guid>
+  <pubDate>Sat, 01 May 2021 22:00:00 GMT</pubDate>
+  <media:content url="https://raw.githubusercontent.com/RLille/meetups/main/meetups/2021-06-17/ads/2021-06-17.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>How To Build A Package With The “Rmd First” Method</title>
+  <dc:creator>[Mickaël CANOUIL](https://mickael.canouil.fr/)</dc:creator>
+  <link>https://rlille.fr/posts/2021-03-26-rmd-first-method/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Bonjour à toutes et tous,</p>
+<p>R Lille organise un nouveau MeetUp sur le thème du développement à partir de Rmarkdown&nbsp;:<br>
+<strong>How To Build A Package With The “Rmd First” Method</strong></p>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/febuOcS70t4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+</center>
+<!-- <center>
+![Affiche Événement](https://raw.githubusercontent.com/RLille/meetups/main/meetups/2021-04-29/ads/2021-04-29.png)
+</center> -->
+<blockquote class="blockquote">
+<p><em>[Résumé]</em><br>
+Vous savez comment construire un Rmardown, on vous a dit ou vous aimeriez mettre votre travail dans un package R, mais vous pensez que c’est trop de travail&nbsp;? Vous ne comprenez pas où mettre quoi et quand&nbsp;? Et si écrire un Rmd était la même chose que d’écrire un package&nbsp;? Suivez la méthode Rmd-first et laissez vous guidez par {fusen} pour créer un package documenté et testé, pour assurer la pérennité et le partage de vos travaux.</p>
+<p><em>[Bio]</em><br>
+Sébastien Rochette (@statnmap) est formateur et consultant R chez ThinkR (<a href="https://rtask.thinkr.fr/" class="uri">https://rtask.thinkr.fr/</a>).</p>
+<p>Il participe au développement de packages R open-source proposés sur GitHub par ThinkR (<a href="https://github.com/thinkR-open/" class="uri">https://github.com/thinkR-open/</a>) et lui-même, dont {fusen} et {attachment}. Il a également créé plusieurs packages internes pour ThinkR et différents clients. Il a donné différentes présentations et tutoriels sur le développement de paquets avec la méthode “Rmd first”, résumés dans “Rmd first&nbsp;: Quand le développement commence par la documentation” (<a href="https://rtask.thinkr.fr/when-development-starts-with-documentation/" class="uri">https://rtask.thinkr.fr/when-development-starts-with-documentation/</a>) et tient un blog sur R sur son site Web (&lt;https://statnmap.com/).</p>
+<p>Il est co-auteur du livre “Engineering Production-Grade Shiny Apps” (<a href="https://engineering-shiny.org/" class="uri">https://engineering-shiny.org/</a>) qui promeut une méthode RMDD adaptée pour les applications Shiny utilisant {golem}.</p>
+<p><em>[A Propos]</em><br>
+Cet événement est organisé par R Lille (Lille, France) et aura lieu en anglais.</p>
+</blockquote>
+<p>Celui-ci sera présenté par <strong>Sébastien Rochette</strong> sur invitation de <strong>R Lille</strong> et aura lieu le <strong>jeudi 29 avril 2021 à 18 h 00 (CEST / UTC + 2)</strong> en ligne.</p>
+<p>Les inscriptions sont sur Meetup&nbsp;: <a href="http://meetup.rlille.fr/events/277132394/" class="uri">http://meetup.rlille.fr/events/277132394/</a></p>
+<p>L’ensemble des diapositives sera mis à disposition sur le GitHub du groupe&nbsp;: <a href="https://github.com/RLille/meetups" class="uri">https://github.com/RLille/meetups</a></p>
+<p>Le Meetup sera enrigistré et diffusé sur Youtube (<a href="http://youtube.rlille.fr/" class="uri">http://youtube.rlille.fr/</a>).</p>
+<p>À bientôt&nbsp;!<br>
+Mickaël CANOUIL</p>
+
+
+
+ ]]></description>
+  <category>Meetup</category>
+  <category>Anglais</category>
+  <guid>https://rlille.fr/posts/2021-03-26-rmd-first-method/index.html</guid>
+  <pubDate>Thu, 25 Mar 2021 23:00:00 GMT</pubDate>
+  <media:content url="https://raw.githubusercontent.com/RLille/meetups/main/meetups/2021-04-29/ads/2021-04-29.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>My Journey To Transparency And Reproducibility</title>
+  <dc:creator>[Mickaël CANOUIL](https://mickael.canouil.fr/)</dc:creator>
+  <link>https://rlille.fr/posts/2021-03-26-journey-transparency/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Bonjour à toutes et tous,</p>
+<p>R Lille organise un nouveau MeetUp sur le thème de la reproductibilité&nbsp;:<br>
+<strong>My Journey To Transparency And Reproducibility</strong></p>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1CE8crjkwYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+</center>
+<!-- <center>
+![Affiche Événement](https://raw.githubusercontent.com/RLille/meetups/main/meetups/2021-04-15/ads/2021-04-15.png)
+</center> -->
+<blockquote class="blockquote">
+<p><em>[Résumé]</em><br>
+Dans cette présentation, je (Mickaël CANOUIL, <a href="https://mickael.canouil.fr" class="uri">https://mickael.canouil.fr</a>) vais vous conter mon parcours vers un environnement de travail plus transparent et reproductible. Je vais parler des changements et des améliorations que j’ai mis en œuvre dans mon équipe, détaillant la transition de l’infrastructure utilisée quand je suis arrivé à une infrastructure en utilisant Docker et l’extension R {renv}.</p>
+<p><em>[Bio]</em><br>
+Je suis biostatisticien (Ph.D.) et responsable d’une petite équipe au sein d’un laboratoire de recherche, travaillant principalement sur la génétique du diabète et de l’obésité.<br>
+J’ai développé quelques extensions R, et bien que certaines ne soient pas très utiles, elles sont très certainement divertissantes (<em>p.ex.</em>, <a href="https://github.com/mcanouil/ggpacman/" class="uri">https://github.com/mcanouil/ggpacman/</a>).<br>
+J’aime aussi regarder des films et jouer avec R (<a href="https://m.canouil.fr/imdb_ratings/" class="uri">https://m.canouil.fr/imdb_ratings/</a>).</p>
+<p><em>[A Propos]</em><br>
+Cet événement est organisé par R Lille (Lille, France) et aura lieu en anglais.</p>
+</blockquote>
+<p>Celui-ci est proposé par <strong>Mickaël CANOUIL</strong> et aura lieu le <strong>jeudi 15 avril 2021 à 19 h 00 (CEST / UTC + 2)</strong> en ligne.</p>
+<p>Les inscriptions sont sur Meetup&nbsp;: <a href="http://meetup.rlille.fr/events/277031496/" class="uri">http://meetup.rlille.fr/events/277031496/</a></p>
+<p>L’ensemble des diapositives sera mis à disposition sur le GitHub du groupe&nbsp;: <a href="https://github.com/RLille/meetups" class="uri">https://github.com/RLille/meetups</a></p>
+<p>Le Meetup sera enrigistré et diffusé sur Youtube (http://youtube.rlille.fr/).</p>
+<p>À bientôt&nbsp;!<br>
+Mickaël CANOUIL</p>
+
+
+
+ ]]></description>
+  <category>Meetup</category>
+  <category>Anglais</category>
+  <guid>https://rlille.fr/posts/2021-03-26-journey-transparency/index.html</guid>
+  <pubDate>Thu, 25 Mar 2021 23:00:00 GMT</pubDate>
+  <media:content url="https://raw.githubusercontent.com/RLille/meetups/main/meetups/2021-04-15/ads/2021-04-15.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>Enseignement & R</title>
+  <dc:creator>Mathilde BOISSEL</dc:creator>
+  <link>https://rlille.fr/posts/2021-02-12-enseignement-r/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Bonjour à toutes et tous,</p>
+<p>Pour ce premier MeetUp 2021, nous vous proposons une réunion orientée sur l’<strong>enseignement</strong> et comment <strong>R</strong> peut y être utilisé.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://rlille.fr/posts/2021-02-12-enseignement-r/https:/raw.githubusercontent.com/RLille/meetups/main/meetups/2021-02-17/ads/2021-02-17.png" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+<p>Nous avons en tête un moment d’échange sur vos pratiques, méthodes, outils, <em>etc.</em>, <strong>plutôt en mode discussion que présentation</strong>.</p>
+<p>Si vous enseignez du R ou que vous utilisez ce langage pour construire vos cours et que vous aimeriez partager/discuter de votre expérience, inscrivez-vous&nbsp;!</p>
+<p>Ce MeetUp aura lieu en ligne (via <strong>Zoom</strong>), le <strong>Mercredi 17 Février à 12&nbsp;h&nbsp;30</strong>.</p>
+<p>Les inscriptions sont par ici&nbsp;: <a href="http://meetup.rlille.fr/events/276325926/" class="uri">http://meetup.rlille.fr/events/276325926/</a></p>
+<p>L’ensemble des diapositives sera mis à disposition sur le GitHub du groupe&nbsp;: <a href="https://github.com/RLille/meetups" class="uri">https://github.com/RLille/meetups</a></p>
+<p>À bientôt&nbsp;!<br>
+Mathilde BOISSEL et Julien HAMONIER</p>
+
+
+
+ ]]></description>
+  <category>Meetup</category>
+  <category>Français</category>
+  <guid>https://rlille.fr/posts/2021-02-12-enseignement-r/index.html</guid>
+  <pubDate>Thu, 11 Feb 2021 23:00:00 GMT</pubDate>
+  <media:content url="https://raw.githubusercontent.com/RLille/meetups/main/meetups/2021-02-17/ads/2021-02-17.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>‘flexdashboard’ Pour Des Tableaux de Bords (HTML) Interactifs</title>
+  <dc:creator>[Mickaël CANOUIL](https://mickael.canouil.fr/)</dc:creator>
+  <link>https://rlille.fr/posts/2020-10-20-flexdasboard/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Bonjour à toutes et tous,</p>
+<p>R Lille (le groupe des utilisateurs de R) organise son second MeetUp&nbsp;:<br>
+<strong>‘flexdashboard’ Pour Des Tableaux de Bords (HTML) Interactifs</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://rlille.fr/posts/2020-10-20-flexdasboard/https:/raw.githubusercontent.com/RLille/meetups/main/meetups/2020-10-30/ads/2020-10-30.png" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+<blockquote class="blockquote">
+<p>‘<a href="https://rmarkdown.rstudio.com/flexdashboard/index.html">flexdashboard</a>’ permet la réalisation de tableau de bords statiques ou dynamiques (‘Shiny’) au moyen d’une structure en grille définie dans un script Rmarkdown.</p>
+</blockquote>
+<p>Celui-ci est proposé par <strong>Daniel Podevin</strong> et aura lieu le <strong>Vendredi 30 Octobre à 12 h 30</strong> dans <strong>l’Amphithéâtre D (aile Ouest) de la Faculté de Médecine de Lille (Pôle Recherche)</strong>.</p>
+<p>Les inscriptions sont par ici&nbsp;:</p>
+<ul>
+<li>En ligne&nbsp;: <a href="https://www.meetup.com/R-Lille/events/273921614/" class="uri">https://www.meetup.com/R-Lille/events/273921614/</a></li>
+<li>En présentiel&nbsp;: <a href="https://www.meetup.com/R-Lille/events/274033022/" class="uri">https://www.meetup.com/R-Lille/events/274033022/</a></li>
+</ul>
+<p>L’ensemble des diapositives sera mis à disposition sur le GitHub du groupe&nbsp;: <a href="https://github.com/RLille/meetups" class="uri">https://github.com/RLille/meetups</a></p>
+<p>À bientôt&nbsp;!<br>
+Mathilde BOISSEL, Julien HAMONIER et Mickaël CANOUIL</p>
+
+
+
+ ]]></description>
+  <category>Meetup</category>
+  <category>Français</category>
+  <guid>https://rlille.fr/posts/2020-10-20-flexdasboard/index.html</guid>
+  <pubDate>Mon, 19 Oct 2020 22:00:00 GMT</pubDate>
+  <media:content url="https://raw.githubusercontent.com/RLille/meetups/main/meetups/2020-10-30/ads/2020-10-30.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>“Débuter” avec R en Commençant par le Début …</title>
+  <dc:creator>[Mickaël CANOUIL](https://mickael.canouil.fr/)</dc:creator>
+  <link>https://rlille.fr/posts/2020-09-10-debuter-avec-r/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Bonjour à toutes et tous,</p>
+<p>R Lille (le groupe des utilisateurs de R) organise son premier MeetUp&nbsp;:<br>
+<strong>“Débuter” avec R en Commençant par le Début …</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://rlille.fr/posts/2020-09-10-debuter-avec-r/https:/raw.githubusercontent.com/RLille/meetups/main/meetups/2020-10-07/ads/2020-10-07.png" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+<p>Celui-ci aura lieu le <strong>Mercredi 7 Octobre à 12 h 00</strong> dans <strong>l’Amphithéâtre D (aile Ouest) de la Faculté de Médecine de Lille (Pôle Recherche)</strong>.</p>
+<p>Les inscriptions sont par ici&nbsp;: <a href="https://www.meetup.com/R-Lille/events/273159362/" class="uri">https://www.meetup.com/R-Lille/events/273159362/</a><br>
+Ce MeetUp n’est ouvert qu’à <strong>30 participants</strong>.<br>
+L’ensemble des diapositives sera mis à disposition sur le GitHub du groupe&nbsp;: <a href="https://github.com/RLille/meetups" class="uri">https://github.com/RLille/meetups</a></p>
+<blockquote class="blockquote">
+<p>Vous souhaitez démarrer avec de bonnes bases&nbsp;?<br>
+Vous suspectez que vous n’avez pas que des bonnes pratiques/habitudes&nbsp;?<br>
+Vous aimeriez améliorer ou modifier votre pratique de R, pour être plus efficace et plus autonome&nbsp;?<br>
+Vous ignorez ce que sont les fichiers <code>.Rdata</code>, <code>.rds</code>, <code>.R</code>, <code>.Rmd</code>, <code>.Renviron</code> et/ou <code>.Rprofile</code>&nbsp;?<br>
+Vous maitrisez les commandes <code>rm(list = ls())</code> et <code>setwd()</code>&nbsp;?</p>
+<p>Ce premier MeetUp vise à donner quelques trucs et astuces autour de R et de l’IDE Rstudio, ainsi qu’ouvrir la discussion sur quelques “règles/conventions” de bonnes pratiques dans un objectif de reproductibilité.</p>
+<p>Lieu&nbsp;: Faculté de Médecine de Lille - Pôle Recherche - Amphithéâtre D (aile Ouest)</p>
+</blockquote>
+<p>À bientôt&nbsp;!<br>
+Mathilde BOISSEL, Julien HAMONIER et Mickaël CANOUIL</p>
+
+
+
+ ]]></description>
+  <category>Meetup</category>
+  <category>Français</category>
+  <guid>https://rlille.fr/posts/2020-09-10-debuter-avec-r/index.html</guid>
+  <pubDate>Wed, 09 Sep 2020 22:00:00 GMT</pubDate>
+  <media:content url="https://raw.githubusercontent.com/RLille/meetups/main/meetups/2020-10-07/ads/2020-10-07.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>Bienvenue à R Lille</title>
+  <dc:creator>[Mickaël CANOUIL](https://mickael.canouil.fr/)</dc:creator>
+  <link>https://rlille.fr/posts/2020-01-31-rlille-welcome/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Bonjour à toutes et tous,</p>
+<p>Pour information, depuis très récemment, il existe un groupe des utilisateurs du logiciel/langage R à Lille.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://rlille.fr/posts/2020-01-31-rlille-welcome/https:/raw.githubusercontent.com/RLille/meetups/main/meetups/2020-01-31/ads/2020-01-31.png" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+<blockquote class="blockquote">
+<p><strong>R Lille</strong></p>
+<p>Vous utilisez R pour le travail et/ou le loisir&nbsp;?<br>
+Vous êtes curieux, débutant ou expert en R&nbsp;?<br>
+Vous êtes localisé sur Lille et sa périphérie, ou simplement de passage&nbsp;?</p>
+<p>Et plus important encore, vous avez envie d’échanger sur R et les nombreuses possibilités qu’offre ce logiciel et ses plus de 17 milles extensions&nbsp;?</p>
+<p>Si la réponse est “oui” à l’une de ses questions, rejoignez-nous sans plus tarder&nbsp;!</p>
+</blockquote>
+<p>L’idée du groupe (soutenu par le R Consortium, <a href="https://www.r-consortium.org/" class="uri">https://www.r-consortium.org/</a>) est de mettre en relation les utilisateurs de R de Lille et sa région et ce peu importe le domaine d’application ou le niveau des utilisateurs en question.</p>
+<center>
+<img src="https://rlille.fr/media/RConsortium_Horizontal_Pantone.png" class="img-fluid" style="width:50.0%">
+</center>
+<p>Ce groupe est présent sur la plateforme meetup&nbsp;: <a href="https://meetup.com/R-Lille/" class="uri">https://meetup.com/R-Lille/</a><br>
+Meetup (inscription gratuite) est un service permettant d’organiser des évènements au sein de groupe avec des thématiques données.</p>
+<p>Le meilleur moyen d’être tenu au courant des événements de R Lille est de vous inscrire sur meetup pour recevoir les informations via la liste de diffusion du groupe.</p>
+<p>Le groupe prévoit de mettre à disposition le matériel utilisé lors de ces prochaines réunions sur GitHub&nbsp;: <a href="https://github.com/RLille" class="uri">https://github.com/RLille</a>.<br>
+Les diapositives de la réunion d’information du vendredi 31 janvier sont d’ores et déjà disponible (<a href="https://github.com/RLille/meetups" class="uri">https://github.com/RLille/meetups</a>).<br>
+GitHub (inscription gratuite) est une plateforme de développement rassemblant des millions de développeurs et permettant de découvrir, partager et développer de meilleur outils par un système de suivi de modification (Git).</p>
+<p>À bientôt&nbsp;!<br>
+Mathilde BOISSEL, Julien HAMONIER et Mickaël CANOUIL</p>
+
+
+
+ ]]></description>
+  <category>Actualités</category>
+  <category>Français</category>
+  <guid>https://rlille.fr/posts/2020-01-31-rlille-welcome/index.html</guid>
+  <pubDate>Thu, 30 Jan 2020 23:00:00 GMT</pubDate>
+  <media:content url="https://raw.githubusercontent.com/RLille/meetups/main/meetups/2020-01-31/ads/2020-01-31.png" medium="image" type="image/png"/>
+</item>
+</channel>
+</rss>
