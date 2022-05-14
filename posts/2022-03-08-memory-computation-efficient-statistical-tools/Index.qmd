@@ -17,8 +17,17 @@ Celui-ci sera présenté par **Florian Privé** et aura lieu le **Thursday, the 
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UXKYqpAo6cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
+
+```{r}
+#| include: false
+utils::download.file(
+  url = "https://raw.githubusercontent.com/RLille/meetups/main/meetups/2022-04-07/ads/2022-04-07.png",
+  destfile = "2022-04-07.png"
+)
+```
+
 <!-- <center>
-![Affiche Événement](https://raw.githubusercontent.com/RLille/meetups/main/meetups/2022-04-07/ads/2022-04-07.png)
+![Affiche Événement](2022-04-07.png)
 </center> -->
 
 > *[Résumé]*  

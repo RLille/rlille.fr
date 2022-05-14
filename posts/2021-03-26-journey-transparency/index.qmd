@@ -16,7 +16,16 @@ R Lille  organise un nouveau MeetUp sur le thème de la reproductibilité&nbsp;:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1CE8crjkwYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <!-- <center>
+```{r}
+#| include: false
+utils::download.file(
+  url = "https://raw.githubusercontent.com/RLille/meetups/main/meetups/2021-04-15/ads/2021-04-15.png",
+  destfile = "2021-04-15.png"
+)
+```
+
 ![Affiche Événement](https://raw.githubusercontent.com/RLille/meetups/main/meetups/2021-04-15/ads/2021-04-15.png)
+
 </center> -->
 
 > _[Résumé]_  

@@ -15,8 +15,17 @@ Bonjour à toutes et tous,
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nfP-mGIsqVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
+
+```{r}
+#| include: false
+utils::download.file(
+  url = "https://raw.githubusercontent.com/Tunis-R-User-Group/Lille-Tunis-Meetups/main/meetups/2022-02-24/ads/2022-02-24.png",
+  destfile = "2022-02-24.png"
+)
+```
+
 <!-- <center>
-![Affiche Événement](https://raw.githubusercontent.com/Tunis-R-User-Group/Lille-Tunis-Meetups/main/meetups/2022-02-24/ads/2022-02-24.png)
+![Affiche Événement](2022-02-24.png)
 ![](https://raw.githubusercontent.com/RLille/meetups/main/meetups/2022-02-24/ads/2022-02-24.png)
 </center> -->
   

@@ -11,7 +11,16 @@ Bonjour à toutes et tous,
 
 Pour ce premier MeetUp 2021, nous vous proposons une réunion orientée sur l'**enseignement** et comment **R** peut y être utilisé. 
 
-![Affiche Événement](https://raw.githubusercontent.com/RLille/meetups/main/meetups/2021-02-17/ads/2021-02-17.png)
+```{r}
+#| include: false
+utils::download.file(
+  url = "https://raw.githubusercontent.com/RLille/meetups/main/meetups/2021-02-17/ads/2021-02-17.png",
+  destfile = "2021-02-17.png"
+)
+```
+
+![Affiche Événement](2021-02-17.png)
+
 
 Nous avons en tête un moment d'échange sur vos pratiques, méthodes, outils, _etc._, **plutôt en mode discussion que présentation**. 
 

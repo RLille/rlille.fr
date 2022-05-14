@@ -11,7 +11,15 @@ Bonjour à toutes et tous,
  
 Pour information, depuis très récemment, il existe un groupe des utilisateurs•rices du logiciel/langage R à Lille.
 
-![Affiche Événement](https://raw.githubusercontent.com/RLille/meetups/main/meetups/2020-01-31/ads/2020-01-31.png)
+```{r}
+#| include: false
+utils::download.file(
+  url = "https://raw.githubusercontent.com/RLille/meetups/main/meetups/2020-01-31/ads/2020-01-31.png",
+  destfile = "2020-01-31.png"
+)
+```
+
+![Affiche Événement](2020-01-31.png)
 
 > **R Lille**
 > 

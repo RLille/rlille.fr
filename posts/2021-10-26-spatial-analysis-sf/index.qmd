@@ -15,8 +15,17 @@ R Lille organise un nouveau MeetUp sur le thème&nbsp;:
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NSbnWCjTfGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
+
+```{r}
+#| include: false
+utils::download.file(
+  url = "https://raw.githubusercontent.com/RLille/meetups/main/meetups/2021-11-18/ads/2021-11-18.png",
+  destfile = "2021-11-18.png"
+)
+```
+
 <!-- <center>
-![Affiche Événement](https://raw.githubusercontent.com/RLille/meetups/main/meetups/2021-11-18/ads/2021-11-18.png)
+![Affiche Événement](2021-11-18.png)
 </center> -->
   
 > _[Résumé]_  
