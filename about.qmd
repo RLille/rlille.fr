@@ -1,0 +1,33 @@
+---
+title: "Qu'est-ce que R Lille&nbsp;?"
+image: /media/icon.svg
+comments: false
+about:
+  template: solana
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/RLille/
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/RLille_RUG
+    - icon: meetup
+      text: Meetup
+      href: https://www.meetup.com/R-Lille/
+    - icon: youtube
+      text: YouTube
+      href: https://www.youtube.com/channel/UCCRIHidGlMgADMkGrl8eKiQ
+    - icon: slack
+      text: Slack
+      href: https://rlille.slack.com/
+---
+
+R Lille est le groupe des utilisateurs de R de Lille (et sa région) et a été créé début février 2020.
+
+Vous utilisez R pour le travail et/ou le loisir&nbsp;?
+Vous êtes curieux, débutant ou expert en R&nbsp;?
+Vous êtes localisé sur Lille et sa périphérie, ou simplement de passage&nbsp;?
+
+Et plus important encore, vous avez envie d'échanger sur R et les nombreuses possibilités qu'offre ce logiciel et ses plus de 17 milles extensions&nbsp;?
+
+Si la réponse est "oui" à l'une de ces questions, rejoignez-nous sur [Meetup](https://www.meetup.com/R-Lille/) sans plus tarder&nbsp;!

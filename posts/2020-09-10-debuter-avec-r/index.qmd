@@ -1,0 +1,34 @@
+---
+title: '"Débuter" avec R en Commençant par le Début ...'
+author: "[Mickaël CANOUIL](https://mickael.canouil.fr/)"
+date: "2020-09-10"
+categories:
+  - Meetup
+  - Français
+---
+
+Bonjour à toutes et tous,
+ 
+R Lille (le groupe des utilisateurs de R) organise son premier MeetUp&nbsp;:  
+**"Débuter" avec R en Commençant par le Début ...**
+
+![Affiche Événement](https://raw.githubusercontent.com/RLille/meetups/main/meetups/2020-10-07/ads/2020-10-07.png)
+
+Celui-ci aura lieu le **Mercredi 7 Octobre à 12 h 00** dans **l’Amphithéâtre D (aile Ouest) de la Faculté de Médecine de Lille (Pôle Recherche)**.
+
+Les inscriptions sont par ici&nbsp;: <https://www.meetup.com/R-Lille/events/273159362/>  
+Ce MeetUp n'est ouvert qu'à **30 participants**.  
+L'ensemble des diapositives sera mis à disposition sur le GitHub du groupe&nbsp;: <https://github.com/RLille/meetups>
+
+> Vous souhaitez démarrer avec de bonnes bases&nbsp;?  
+> Vous suspectez que vous n'avez pas que des bonnes pratiques/habitudes&nbsp;?  
+> Vous aimeriez améliorer ou modifier votre pratique de R, pour être plus efficace et plus autonome&nbsp;?  
+> Vous ignorez ce que sont les fichiers `.Rdata`, `.rds`, `.R`, `.Rmd`, `.Renviron` et/ou `.Rprofile`&nbsp;?  
+> Vous maitrisez les commandes `rm(list = ls())` et `setwd()`&nbsp;?
+>
+> Ce premier MeetUp vise à donner quelques trucs et astuces autour de R et de l'IDE Rstudio, ainsi qu'ouvrir la discussion sur quelques "règles/conventions" de bonnes pratiques dans un objectif de reproductibilité.
+>
+> Lieu&nbsp;: Faculté de Médecine de Lille - Pôle Recherche - Amphithéâtre D (aile Ouest)
+
+À bientôt&nbsp;!  
+Mathilde BOISSEL, Julien HAMONIER et Mickaël CANOUIL
