@@ -1,6 +1,5 @@
 project:
   type: website
-  output-dir: docs
 website:
   title: "R Lille"
   description: "Groupe des Utilisateurs de R de Lille"
@@ -43,8 +42,6 @@ website:
         href: https://www.youtube.com/channel/UCCRIHidGlMgADMkGrl8eKiQ
       - icon: slack
         href: https://rlille.slack.com/
-      - icon: rss
-        href: index.xml
 format:
   html:
     theme: simplex

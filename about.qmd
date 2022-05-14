@@ -1,6 +1,6 @@
 ---
 title: "Qu'est-ce que R Lille&nbsp;?"
-image: /media/icon.svg
+image: ./media/icon.svg
 comments: false
 about:
   template: solana
