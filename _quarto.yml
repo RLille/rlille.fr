@@ -46,5 +46,5 @@ format:
   html:
     theme: simplex
     css: styles.css
-    lang: fr-fr
+    lang: fr
     date-format: long
