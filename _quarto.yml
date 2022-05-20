@@ -11,11 +11,11 @@ website:
   open-graph:
     title: "R Lille"
     description: "Groupe des Utilisateurs•rices de R de Lille"
-    image: /media/icon.png
+    image: /media/icon.svg
   twitter-card:
     title: "R Lille"
     description: "Groupe des Utilisateurs•rices de R de Lille"
-    image: /media/icon.png
+    image: /media/icon.svg
     site: "@RLilleRUG"
     creator: "@MickaelCanouil"
     card-style: summary_large_image
