@@ -9,11 +9,16 @@ website:
   repo-url: https://github.com/RLille/rlille.fr/
   repo-actions: [edit, issue]
   open-graph:
-    image: /media/icon.png
+    title: "R Lille"
+    description: "Groupe des Utilisateurs•rices de R de Lille"
+    image: /media/icon.svg
   twitter-card:
-    image: /media/icon.png
+    title: "R Lille"
+    description: "Groupe des Utilisateurs•rices de R de Lille"
+    image: /media/icon.svg
     site: "@RLilleRUG"
     creator: "@MickaelCanouil"
+    card-style: summary_large_image
   comments: 
     utterances:
       repo: mcanouil/rlille.fr
