@@ -8,9 +8,10 @@ website:
   site-url: https://rlille.fr
   repo-url: https://github.com/RLille/rlille.fr/
   repo-actions: [edit, issue]
-  open-graph: true
+  open-graph:
+    image: /media/icon.png
   twitter-card:
-    image: /media/icon.svg
+    image: /media/icon.png
     site: "@RLilleRUG"
     creator: "@MickaelCanouil"
   comments: 
