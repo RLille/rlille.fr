@@ -10,7 +10,6 @@ website:
   repo-actions: [edit, issue]
   open-graph: true
   twitter-card:
-    card-style: summary_large_image
     image: /media/icon.svg
     site: "@RLilleRUG"
     creator: "@MickaelCanouil"
