@@ -9,7 +9,9 @@ website:
   repo-url: https://github.com/RLille/rlille.fr/
   repo-actions: [edit, issue]
   open-graph: true
-  twitter-card: 
+  twitter-card:
+    card-style: summary_large_image
+    image: /media/icon.svg
     site: "@RLilleRUG"
     creator: "@MickaelCanouil"
   comments: 
