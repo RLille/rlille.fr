@@ -4,18 +4,16 @@ website:
   title: "R Lille - Groupe des Utilisateurs•rices R de Lille"
   description: "Groupe des Utilisateurs•rices de R de Lille"
   favicon: /media/icon.svg
-  image: /media/icon.svg
+  image: /media/social.png
   site-url: https://rlille.fr
   repo-url: https://github.com/RLille/rlille.fr/
   repo-actions: [edit, issue]
   open-graph:
     title: "R Lille"
     description: "Groupe des Utilisateurs•rices de R de Lille"
-    image: /media/icon.png
   twitter-card:
     title: "R Lille"
     description: "Groupe des Utilisateurs•rices de R de Lille"
-    image: /media/icon.png
     site: "@RLilleRUG"
     creator: "@MickaelCanouil"
     card-style: summary_large_image
