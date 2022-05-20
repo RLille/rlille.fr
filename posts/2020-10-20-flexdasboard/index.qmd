@@ -5,6 +5,7 @@ date: "2020-10-20"
 categories:
   - Meetup
   - Français
+  - HTML
 ---
 
 Bonjour à toutes et tous,

@@ -5,6 +5,7 @@ date: "2022-03-08"
 categories:
   - Meetup
   - Anglais
+  - Extension
 ---
 
 Bonjour à toutes et tous,

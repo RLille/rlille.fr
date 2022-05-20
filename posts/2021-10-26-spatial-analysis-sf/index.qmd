@@ -5,6 +5,8 @@ date: "2021-10-26"
 categories:
   - Meetup
   - Français
+  - Extension
+  - Spatial
 ---
 
 Bonjour à toutes et tous,

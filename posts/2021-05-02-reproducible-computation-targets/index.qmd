@@ -5,6 +5,8 @@ date: "2021-05-02"
 categories:
   - Meetup
   - Anglais
+  - Reproductibilité
+  - Extension
 ---
 
 Bonjour à toutes et tous,
@@ -27,8 +29,7 @@ utils::download.file(
 <!-- <center>
 ![Affiche Événement](2021-06-17.png)
 </center> -->
-  
-  
+
 > _[Résumé]_  
 > L'extension R {targets} (<https://docs.ropensci.org/targets/>) améliore la reproductibilité, la mise à l'échelle et la maintenabilité des projets de science des données dans des domaines utilisants des méthodes de calcul intensif tels que l'apprentissage automatique, l'analyse de données bayésiennes et la statistique génomique. 
 > {targets} identifie la structure de dépendance des éléments du pipeline d'analyse, ignore les tâches à jour, exécute le reste et gère le stockage des données, tout en offrant des options de calcul distribué.

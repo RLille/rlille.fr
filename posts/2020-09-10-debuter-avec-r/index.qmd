@@ -5,6 +5,8 @@ date: "2020-09-10"
 categories:
   - Meetup
   - Français
+  - Développement
+  - Bonne Pratique
 ---
 
 Bonjour à toutes et tous,

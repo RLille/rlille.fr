@@ -5,6 +5,7 @@ date: "2021-02-12"
 categories:
   - Meetup
   - Français
+  - Enseignement
 ---
 
 Bonjour à toutes et tous,
@@ -20,7 +21,6 @@ utils::download.file(
 ```
 
 ![Affiche Événement](2021-02-17.png)
-
 
 Nous avons en tête un moment d'échange sur vos pratiques, méthodes, outils, _etc._, **plutôt en mode discussion que présentation**. 
 

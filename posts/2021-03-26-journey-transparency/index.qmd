@@ -5,6 +5,7 @@ date: "2021-03-26"
 categories:
   - Meetup
   - Anglais
+  - Reproductibilité
 ---
 
 Bonjour à toutes et tous,
@@ -24,7 +25,7 @@ utils::download.file(
 )
 ```
 
-![Affiche Événement](https://raw.githubusercontent.com/RLille/meetups/main/meetups/2021-04-15/ads/2021-04-15.png)
+![Affiche Événement](2021-04-15.png)
 
 </center> -->
 

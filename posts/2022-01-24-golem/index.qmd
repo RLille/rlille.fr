@@ -5,6 +5,9 @@ date: "2022-01-24"
 categories:
   - Meetup
   - Français
+  - Développement
+  - shiny
+  - HTML
 ---
 
 Bonjour à toutes et tous,
