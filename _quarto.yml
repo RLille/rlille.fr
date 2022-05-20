@@ -1,0 +1,50 @@
+project:
+  type: website
+website:
+  title: "R Lille - Groupe des Utilisateurs•rices R de Lille"
+  description: "Groupe des Utilisateurs•rices de R de Lille"
+  favicon: /media/icon.svg
+  image: /media/icon.svg
+  site-url: https://rlille.fr
+  repo-url: https://github.com/RLille/rlille.fr/
+  repo-actions: [edit, issue]
+  open-graph: true
+  twitter-card: 
+    site: "@RLilleRUG"
+    creator: "@MickaelCanouil"
+  comments: 
+    utterances:
+      repo: mcanouil/rlille.fr
+  page-navigation: true
+  page-footer:
+    left: |
+      Powered by [Quarto](https://quarto.org).
+    center: |
+      &copy; 2022 R Lille (R User Group).  
+      License: [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0).
+    right: |
+      Supported by [<img src="/media/RConsortium_Horizontal_Pantone.png" alt="R Consortium Logo" style="height:1.5em;"/>](https://www.r-consortium.org/)
+    border: true
+  navbar:
+    search: true
+    logo: media/icon.svg
+    right:
+      - text: À Propos
+        href: about.qmd
+      - icon: meetup
+        text: Meetup
+        href: https://www.meetup.com/R-Lille/
+      - icon: github
+        href: https://github.com/RLille/
+      - icon: twitter
+        href: https://twitter.com/RLille_RUG
+      - icon: youtube
+        href: https://www.youtube.com/channel/UCCRIHidGlMgADMkGrl8eKiQ
+      - icon: slack
+        href: https://rlille.slack.com/
+format:
+  html:
+    theme: simplex
+    css: styles.css
+    lang: fr
+    date-format: long

@@ -1,0 +1,14 @@
+---
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  page-size: 5
+  fields: [title, subtitle, author, image, date, categories]
+page-layout: full
+title-block-banner: true
+comments: false
+---

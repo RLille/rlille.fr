@@ -1,0 +1,36 @@
+---
+title: "Enseignement & R"
+author: "Mathilde BOISSEL"
+date: "2021-02-12"
+categories:
+  - Meetup
+  - Français
+  - Enseignement
+---
+
+Bonjour à toutes et tous,
+
+Pour ce premier MeetUp 2021, nous vous proposons une réunion orientée sur l'**enseignement** et comment **R** peut y être utilisé. 
+
+```{r}
+#| include: false
+utils::download.file(
+  url = "https://raw.githubusercontent.com/RLille/meetups/main/meetups/2021-02-17/ads/2021-02-17.png",
+  destfile = "2021-02-17.png"
+)
+```
+
+![Affiche Événement](2021-02-17.png)
+
+Nous avons en tête un moment d'échange sur vos pratiques, méthodes, outils, _etc._, **plutôt en mode discussion que présentation**. 
+
+Si vous enseignez du R ou que vous utilisez ce langage pour construire vos cours et que vous aimeriez partager/discuter de votre expérience, inscrivez-vous&nbsp;!
+
+Ce MeetUp aura lieu en ligne (via **Zoom**), le **Mercredi 17 Février à 12&nbsp;h&nbsp;30**.
+
+Les inscriptions sont par ici&nbsp;: <http://meetup.rlille.fr/events/276325926/>
+
+L'ensemble des diapositives sera mis à disposition sur le GitHub du groupe&nbsp;: <https://github.com/RLille/meetups>
+
+À bientôt&nbsp;!  
+Mathilde BOISSEL et Julien HAMONIER
