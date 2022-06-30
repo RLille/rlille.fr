@@ -1,0 +1,31 @@
+---
+title: "Interview R Consortium"
+author: "[Mickaël CANOUIL](https://mickael.canouil.fr/)"
+date: "2022-06-30"
+categories:
+  - Actualités
+  - R Consortium
+  - Anglais
+---
+
+Bonjour à toutes et tous,
+
+Retrouvez l'interview de [Mickaël CANOUIL](https://mickael.canouil.fr/)
+organisateur de R Lille par le [R consortium](https://www.r-consortium.org/): 
+<https://www.r-consortium.org/blog/2022/06/29/r-lille-organizer-talks-about-guiding-new-users>
+
+[![](2022-06-30.jpg){width="560" height="315" fig-alt="Affiche de l'interview de Mickaël Canouil par le R Consortium sur le groupe des utilisateurs de R: R Lille"}](https://www.r-consortium.org/blog/2022/06/29/r-lille-organizer-talks-about-guiding-new-users)
+
+En attendant le prochain Meetup, vous pouvez revoir les enregistrements des précédents:
+
+- [_My Journey To Transparency And Reproducibility_](https://www.youtube.com/watch?v=1CE8crjkwYY) - **[Mickaël CANOUIL](https://mickael.canouil.fr)**
+- [_How To Build A Package With The "Rmd First" Method_](https://www.youtube.com/watch?v=febuOcS70t4) - **[Sébastien Rochette](https://statnmap.com/)**
+- [_Reproducible Computation At Scale In R With {targets}_](https://www.youtube.com/watch?v=FODSavXGjYg) - **[Will Landau](https://wlandau.github.io/)**
+- [_Être Un•e Utilisateur•rice De R Résilient•e_](https://www.youtube.com/watch?v=Jt0-x_w1Rzw) - **[Maëlle Salmon](https://masalmon.eu/)**
+- [_Analyse Spatiale Sous R, Avec L'Extension {sf}_](https://www.youtube.com/watch?v=NSbnWCjTfGk) - **Aniss Louchez**
+- [_A la Découverte de la Création des Applications R {shiny}_](https://www.youtube.com/watch?v=_tIzFNyYU-g) - **[Mohamed Fodil](https://ihaddadenfodil.com/)**
+- [_De la Création au Déploiement d'Applications {shiny} avec {golem}_](https://www.youtube.com/watch?v=nfP-mGIsqVs) - **[Margot Brard](https://github.com/MargotBr)**
+- [_Memory- and Computation-Efficient Statistical Tools for Big Matrices_](https://www.youtube.com/watch?v=UXKYqpAo6cs) - **[Florian Privé](https://privefl.github.io/)**
+
+À bientôt&nbsp;!  
+Mickaël CANOUIL
