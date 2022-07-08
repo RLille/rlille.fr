@@ -38,8 +38,7 @@ website:
     right:
       - text: À Propos
         href: about.qmd
-      - icon: meetup
-        text: "{{< fa meetup >}}"
+      - text: "{{< fa meetup >}}"
         href: https://www.meetup.com/R-Lille/
       - icon: github
         href: https://github.com/RLille/
