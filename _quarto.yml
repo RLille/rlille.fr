@@ -38,16 +38,15 @@ website:
     right:
       - text: À Propos
         href: about.qmd
-      - icon: meetup
-        text: Meetup
+      - text: "{{< fa brands meetup >}}"
         href: https://www.meetup.com/R-Lille/
-      - icon: github
+      - text: "{{< fa brands github >}}"
         href: https://github.com/RLille/
-      - icon: twitter
+      - text: "{{< fa brands twitter >}}"
         href: https://twitter.com/RLille_RUG
-      - icon: youtube
-        href: https://www.youtube.com/channel/UCCRIHidGlMgADMkGrl8eKiQ
-      - icon: slack
+      - text: "{{< fa brands youtube >}}"
+        href: https://www.youtube.com/c/RLille
+      - text: "{{< fa brands slack >}}"
         href: https://rlille.slack.com/
 format:
   html:

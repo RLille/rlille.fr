@@ -5,20 +5,15 @@ comments: false
 about:
   template: solana
   links:
-    - icon: github
-      text: GitHub
-      href: https://github.com/RLille/
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/RLille_RUG
-    - icon: meetup
-      text: Meetup
+    - text: "{{< fa brands meetup >}} Meetup"
       href: https://www.meetup.com/R-Lille/
-    - icon: youtube
-      text: YouTube
-      href: https://www.youtube.com/channel/UCCRIHidGlMgADMkGrl8eKiQ
-    - icon: slack
-      text: Slack
+    - text: "{{< fa brands github >}} GitHub"
+      href: https://github.com/RLille/
+    - text: "{{< fa brands twitter >}} Twitter"
+      href: https://twitter.com/RLille_RUG
+    - text: "{{< fa brands youtube >}} YouTube"
+      href: https://www.youtube.com/c/RLille
+    - text: "{{< fa brands slack >}} Slack"
       href: https://rlille.slack.com/
 ---
 
