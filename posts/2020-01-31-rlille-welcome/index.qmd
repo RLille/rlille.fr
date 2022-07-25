@@ -5,6 +5,8 @@ date: "2020-01-31"
 categories:
   - Actualités
   - Français
+image: 2020-01-31.png
+image-alt: "Affiche R Lille indiquant la date (3& janvier 2020), le titre (Réunion d'Information) et les auteurs du meetup"
 ---
 
 Bonjour à toutes et tous,

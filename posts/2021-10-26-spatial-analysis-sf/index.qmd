@@ -7,6 +7,11 @@ categories:
   - Français
   - Extension
   - Spatial
+image: 2021-11-18.png
+image-alt: |
+  Affiche de 'Analyse Spatiale Sous R, Avec L'Extension {sf}',
+  un Meetup par Aniss Louchez,
+  tenu le 18 novembre 2021
 ---
 
 Bonjour à toutes et tous,

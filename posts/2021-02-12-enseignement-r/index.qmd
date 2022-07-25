@@ -6,6 +6,11 @@ categories:
   - Meetup
   - Français
   - Enseignement
+image: 2021-02-17.png
+image-alt: |
+  Affiche de 'Enseignement & R',
+  un Meetup par Mathilde BOISSEL et Julien HAMONIER,
+  tenu le 17 février 2021
 ---
 
 Bonjour à toutes et tous,

@@ -7,6 +7,11 @@ categories:
   - Anglais
   - Reproductibilité
   - Extension
+image: 2021-06-17.png
+image-alt: |
+  Affiche de 'Reproducible Computation At Scale In R With {targets}',
+  un Meetup par Will Landau,
+  tenu le 17 juin 2021
 ---
 
 Bonjour à toutes et tous,

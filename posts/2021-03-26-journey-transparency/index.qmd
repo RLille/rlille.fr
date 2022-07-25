@@ -6,6 +6,11 @@ categories:
   - Meetup
   - Anglais
   - Reproductibilité
+image: 2021-04-15.png
+image-alt: |
+  Affiche de 'My Journey To Transparency And Reproducibility',
+  un Meetup par Mickaël CANOUIL,
+  tenu le 15 avril 2021
 ---
 
 Bonjour à toutes et tous,

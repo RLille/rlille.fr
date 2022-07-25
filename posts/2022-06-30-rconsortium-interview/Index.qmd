@@ -6,6 +6,10 @@ categories:
   - Actualités
   - R Consortium
   - Anglais
+image: 2022-06-30.jpg
+image-alt: |
+  Affiche de de l'interview de Mickaël Canouil,
+  organisateur de R Lille, par le R Consortium
 ---
 
 Bonjour à toutes et tous,
