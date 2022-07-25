@@ -40,7 +40,7 @@ jobs:
         with:
           commit-message: Automatic website rendering with latest Quarto
           signoff: false
-          branch: auto-detected-updates
+          branch: latest-quarto-updates
           delete-branch: true
           title: "Automatic website rendering with latest Quarto"
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
