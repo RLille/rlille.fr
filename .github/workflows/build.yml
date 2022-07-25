@@ -38,7 +38,7 @@ jobs:
         id: cpr
         uses: peter-evans/create-pull-request@v4
         with:
-          commit-message: Automatic website rendering with latest Quarto
+          commit-message: "ci: automatic website rendering with latest Quarto"
           signoff: false
           branch: latest-quarto-updates
           delete-branch: true
