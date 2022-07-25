@@ -6,12 +6,17 @@ categories:
   - Meetup
   - Français
   - HTML
+image: 2020-10-30.png
+image-alt: |
+  Affiche de '"flexdashboard" Pour Des Tableaux de Bords (HTML) Interactifs',
+  un Meetup par Daniel Podevin,
+  tenu le 30 octobre 2020
 ---
 
 Bonjour à toutes et tous,
  
 R Lille (le groupe des utilisateurs•rices de R) organise son second MeetUp&nbsp;:  
-**'flexdashboard' Pour Des Tableaux de Bords (HTML) Interactifs**
+**"flexdashboard" Pour Des Tableaux de Bords (HTML) Interactifs**
 
 ```{r}
 #| include: false
@@ -23,7 +28,7 @@ utils::download.file(
 
 ![Affiche Événement](2020-10-30.png)
 
-> '[flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/index.html)' permet la réalisation de tableau de bords statiques ou dynamiques ('Shiny') au moyen d'une structure en grille définie dans un script Rmarkdown.
+> "[flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/index.html)" permet la réalisation de tableau de bords statiques ou dynamiques ('Shiny') au moyen d'une structure en grille définie dans un script Rmarkdown.
 
 Celui-ci est proposé par **Daniel Podevin** et aura lieu le **Vendredi 30 Octobre à 12 h 30** dans **l’Amphithéâtre D (aile Ouest) de la Faculté de Médecine de Lille (Pôle Recherche)**.
 

@@ -7,6 +7,11 @@ categories:
   - Français
   - Développement
   - Bonne Pratique
+image: 2021-12-02.png
+image-alt: |
+  Affiche de 'Être Un•e Utilisateur•rice De R Résilient•e',
+  un Meetup par Maëlle Salmon,
+  tenu le 2 décembre 2021
 ---
 
 Bonjour à toutes et tous,

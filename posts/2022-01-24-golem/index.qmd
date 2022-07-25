@@ -8,6 +8,11 @@ categories:
   - Développement
   - shiny
   - HTML
+image: 2022-02-24.png
+image-alt: |
+  Affiche de 'De la Création au Déploiement d'Applications {shiny} avec {golem}',
+  un Meetup par Margot Brard,
+  tenu le 24 février 2022
 ---
 
 Bonjour à toutes et tous,

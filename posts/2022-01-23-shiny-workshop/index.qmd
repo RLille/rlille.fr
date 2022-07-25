@@ -8,6 +8,11 @@ categories:
   - Développement
   - shiny
   - HTML
+image: 2022-02-06.png
+image-alt: |
+  Affiche de 'A la Découverte de la Création des Applications R {shiny}',
+  un Meetup par Mohamed Fodil,
+  tenu le 6 février 2022
 ---
 
 Bonjour à toutes et tous,

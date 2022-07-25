@@ -6,6 +6,11 @@ categories:
   - Meetup
   - Anglais
   - Extension
+image: 2022-04-07.png
+image-alt: |
+  Affiche de 'Memory- and Computation-Efficient Statistical Tools for Big Matrices',
+  un Meetup par Florian Privé,
+  tenu le 7 avril 2022
 ---
 
 Bonjour à toutes et tous,
