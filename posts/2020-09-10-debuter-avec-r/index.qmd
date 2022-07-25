@@ -9,7 +9,7 @@ categories:
   - Bonne Pratique
 image: 2020-10-07.png
 image-alt: |
-  Affiche de '\"Débuter\" avec R en Commençant par le Début ...',
+  Affiche de 'Débuter avec R en Commençant par le Début ...',
   un Meetup par Mickaël Canouil,
   tenu le 7 octobre 2020
 ---

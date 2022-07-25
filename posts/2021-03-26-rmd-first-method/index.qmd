@@ -9,7 +9,7 @@ categories:
   - extension
 image: 2021-04-29.png
 image-alt: |
-  Affiche de 'How To Build A Package With The "Rmd First" Method',
+  Affiche de 'How To Build A Package With The Rmd First Method',
   un Meetup par Sébastien Rochette,
   tenu le 29 avril 2021
 ---
