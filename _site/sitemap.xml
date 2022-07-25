@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://rlille.fr/posts/2021-05-02-reproducible-computation-targets/index.html</loc>
-    <lastmod>2022-07-25T19:25:07.068Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rlille.fr/posts/2021-03-26-journey-transparency/index.html</loc>
-    <lastmod>2022-07-25T19:25:09.012Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rlille.fr/posts/2022-06-30-rconsortium-interview/Index.html</loc>
-    <lastmod>2022-07-25T19:25:09.904Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rlille.fr/posts/2021-03-26-rmd-first-method/index.html</loc>
-    <lastmod>2022-07-25T19:25:11.472Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rlille.fr/posts/2022-01-23-shiny-workshop/index.html</loc>
-    <lastmod>2022-07-25T19:25:13.040Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rlille.fr/posts/2021-02-12-enseignement-r/index.html</loc>
-    <lastmod>2022-07-25T19:25:14.452Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rlille.fr/posts/2020-01-31-rlille-welcome/index.html</loc>
-    <lastmod>2022-07-25T19:25:15.992Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rlille.fr/posts/2021-10-05-resilient-r-user/index.html</loc>
-    <lastmod>2022-07-25T19:25:17.412Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rlille.fr/posts/2020-09-10-debuter-avec-r/index.html</loc>
-    <lastmod>2022-07-25T19:25:18.912Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rlille.fr/posts/2020-10-20-flexdasboard/index.html</loc>
-    <lastmod>2022-07-25T19:25:20.540Z</lastmod>
-  </url>
-  <url>
     <loc>https://rlille.fr/posts/2022-01-24-golem/index.html</loc>
-    <lastmod>2022-07-25T19:25:22.052Z</lastmod>
+    <lastmod>2022-07-25T19:58:17.124Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rlille.fr/posts/2021-05-02-reproducible-computation-targets/index.html</loc>
+    <lastmod>2022-07-25T19:58:18.846Z</lastmod>
   </url>
   <url>
     <loc>https://rlille.fr/posts/2021-10-26-spatial-analysis-sf/index.html</loc>
-    <lastmod>2022-07-25T19:25:23.576Z</lastmod>
+    <lastmod>2022-07-25T19:58:20.607Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rlille.fr/posts/2020-01-31-rlille-welcome/index.html</loc>
+    <lastmod>2022-07-25T19:58:22.455Z</lastmod>
   </url>
   <url>
     <loc>https://rlille.fr/posts/2022-03-08-memory-computation-efficient-statistical-tools/Index.html</loc>
-    <lastmod>2022-07-25T19:25:25.096Z</lastmod>
+    <lastmod>2022-07-25T19:58:24.377Z</lastmod>
   </url>
   <url>
-    <loc>https://rlille.fr/about.html</loc>
-    <lastmod>2022-07-25T19:25:25.432Z</lastmod>
+    <loc>https://rlille.fr/posts/2021-02-12-enseignement-r/index.html</loc>
+    <lastmod>2022-07-25T19:58:26.120Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rlille.fr/posts/2020-09-10-debuter-avec-r/index.html</loc>
+    <lastmod>2022-07-25T19:58:27.892Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rlille.fr/posts/2020-10-20-flexdasboard/index.html</loc>
+    <lastmod>2022-07-25T19:58:29.331Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rlille.fr/posts/2021-10-05-resilient-r-user/index.html</loc>
+    <lastmod>2022-07-25T19:58:31.110Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rlille.fr/posts/2021-03-26-rmd-first-method/index.html</loc>
+    <lastmod>2022-07-25T19:58:33.343Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rlille.fr/posts/2022-06-30-rconsortium-interview/Index.html</loc>
+    <lastmod>2022-07-25T19:58:34.377Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rlille.fr/posts/2022-01-23-shiny-workshop/index.html</loc>
+    <lastmod>2022-07-25T19:58:36.205Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rlille.fr/posts/2021-03-26-journey-transparency/index.html</loc>
+    <lastmod>2022-07-25T19:58:38.095Z</lastmod>
   </url>
   <url>
     <loc>https://rlille.fr/index.html</loc>
-    <lastmod>2022-07-25T19:25:26.028Z</lastmod>
+    <lastmod>2022-07-25T19:58:38.699Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rlille.fr/about.html</loc>
+    <lastmod>2022-07-25T19:58:39.028Z</lastmod>
   </url>
 </urlset>
