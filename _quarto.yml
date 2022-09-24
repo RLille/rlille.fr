@@ -1,5 +1,6 @@
 project:
   type: website
+freeze: auto
 website:
   title: "R Lille - Groupe des Utilisateurs•rices R de Lille"
   description: "Groupe des Utilisateurs•rices de R de Lille"

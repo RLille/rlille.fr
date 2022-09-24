@@ -1,0 +1,35 @@
+---
+title: "Afterwork R Lille - Rencontre & Discussion"
+author: "[Mickaël CANOUIL](https://mickael.canouil.fr/)"
+date: "2022-09-24"
+categories:
+  - Actualités
+  - R Consortium
+  - Français
+image: 2022-10-06.png
+image-alt: |
+  Affiche de l'afterwork R Lille du jeudi 6 octobre à 18 h 30 à Lille
+---
+
+```{r}
+#| include: false
+utils::download.file(
+  url = "https://raw.githubusercontent.com/RLille/meetups/main/meetups/2022-10-06/ads/2022-10-06.png",
+  destfile = "2022-10-06.png"
+)
+```
+
+Bonjour à toutes et tous,
+
+R Lille a vu le jour en février 2020, malgré le contexte, c'est tout de même 11 rencontres en ligne ou en présentiel.
+
+Je vous propose ici de faire le point sur ces presque deux ans de R Lille, sur vos attentes, vos envies, mais aussi de se retrouver pour tout simplement discuter et se rencontrer.
+
+Rejoignez moi pour un afterwork le **Jeudi 6 Octobre 2022 à 18:30 CET** dans un **bar de Lille**.
+
+[![](2022-10-06.png){width="560" height="315" fig-alt="Affiche de l'afterwork R Lille du jeudi 6 octobre à 18 h 30 à Lille"}](https://www.meetup.com/r-lille/events/288690120/)
+
+À des fins d'organisation, je vous invite à vous inscrire pour qu'une réservation dans un établissement puisse être faite.
+
+À bientôt&nbsp;!  
+Mickaël CANOUIL
