@@ -14,7 +14,7 @@ about:
     - text: "{{< fa brands youtube >}} YouTube"
       href: https://www.youtube.com/c/RLille
     - text: "{{< fa brands slack >}} Slack"
-      href: https://rlille.slack.com/
+      href: https://r-grrr.slack.com/archives/C042K6XB34G
 ---
 
 R Lille est le groupe des utilisateurs•rices de R de Lille (et sa région) et a été créé début février 2020.
