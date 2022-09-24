@@ -48,7 +48,7 @@ website:
       - text: "{{< fa brands youtube >}}"
         href: https://www.youtube.com/c/RLille
       - text: "{{< fa brands slack >}}"
-        href: https://rlille.slack.com/
+        href: https://r-grrr.slack.com/archives/C042K6XB34G
 format:
   html:
     theme: simplex
