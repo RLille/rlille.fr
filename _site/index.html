@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.3.353">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -94,6 +94,7 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
@@ -127,37 +128,39 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">R Lille - Groupe des Utilisateurs•rices R de Lille</span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Recherche"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">
+    <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">À Propos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://www.meetup.com/R-Lille/">
+    <a class="nav-link" href="https://www.meetup.com/R-Lille/" rel="" target="">
  <span class="menu-text"><i class="fa-brands fa-meetup" aria-hidden="true"></i></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://github.com/RLille/">
+    <a class="nav-link" href="https://github.com/RLille/" rel="" target="">
  <span class="menu-text"><i class="fa-brands fa-github" aria-hidden="true"></i></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://twitter.com/RLille_RUG">
+    <a class="nav-link" href="https://twitter.com/RLille_RUG" rel="" target="">
  <span class="menu-text"><i class="fa-brands fa-twitter" aria-hidden="true"></i></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://www.youtube.com/c/RLille">
+    <a class="nav-link" href="https://www.youtube.com/c/RLille" rel="" target="">
  <span class="menu-text"><i class="fa-brands fa-youtube" aria-hidden="true"></i></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://r-grrr.slack.com/archives/C042K6XB34G">
+    <a class="nav-link" href="https://r-grrr.slack.com/archives/C042K6XB34G" rel="" target="">
  <span class="menu-text"><i class="fa-brands fa-slack" aria-hidden="true"></i></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -180,9 +183,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Français,Meetup" data-listing-date-sort="1663977600000" data-listing-file-modified-sort="1678569254079" data-listing-reading-time-sort="0.62">
+<div class="quarto-post image-right" data-index="0" data-categories="Français,Meetup" data-listing-date-sort="1663977600000" data-listing-file-modified-sort="1684073691421" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
-<p><a href="./posts/2022-09-24-rlille-afterwork/Index.html"> <img src="./posts/2022-09-24-rlille-afterwork/2022-10-06.png" class="thumnail-image" alt="Affiche de l&amp;#039;afterwork R Lille du jeudi 6 octobre à 18 h 30 à Lille
+<p><a href="./posts/2022-09-24-rlille-afterwork/Index.html"> <img src="./posts/2022-09-24-rlille-afterwork/2022-10-06.png" class="thumbnail-image" alt="Affiche de l&amp;#039;afterwork R Lille du jeudi 6 octobre à 18 h 30 à Lille
 "> </a></p>
 </div>
 <div class="body">
@@ -215,9 +218,9 @@ Meetup
 
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Actualités,R Consortium,Anglais" data-listing-date-sort="1656547200000" data-listing-file-modified-sort="1678569254079" data-listing-reading-time-sort="0.7">
+<div class="quarto-post image-right" data-index="1" data-categories="Actualités,R Consortium,Anglais" data-listing-date-sort="1656547200000" data-listing-file-modified-sort="1684073691421" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
-<p><a href="./posts/2022-06-30-rconsortium-interview/Index.html"> <img src="./posts/2022-06-30-rconsortium-interview/2022-06-30.jpg" class="thumnail-image" alt="Affiche de l&amp;#039;interview de Mickaël Canouil,
+<p><a href="./posts/2022-06-30-rconsortium-interview/Index.html"> <img src="./posts/2022-06-30-rconsortium-interview/2022-06-30.jpg" class="thumbnail-image" alt="Affiche de l&amp;#039;interview de Mickaël Canouil,
 organisateur de R Lille, par le R Consortium
 "> </a></p>
 </div>
@@ -254,9 +257,9 @@ Anglais
 
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Meetup,Anglais,Extension" data-listing-date-sort="1646697600000" data-listing-file-modified-sort="1678569254075" data-listing-reading-time-sort="1.92">
+<div class="quarto-post image-right" data-index="2" data-categories="Meetup,Anglais,Extension" data-listing-date-sort="1646697600000" data-listing-file-modified-sort="1684073691421" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="./posts/2022-03-08-memory-computation-efficient-statistical-tools/Index.html"> <img src="./posts/2022-03-08-memory-computation-efficient-statistical-tools/2022-04-07.png" class="thumnail-image" alt="Affiche de &amp;#039;Memory- and Computation-Efficient Statistical Tools for Big Matrices',
+<p><a href="./posts/2022-03-08-memory-computation-efficient-statistical-tools/Index.html"> <img src="./posts/2022-03-08-memory-computation-efficient-statistical-tools/2022-04-07.png" class="thumbnail-image" alt="Affiche de &amp;#039;Memory- and Computation-Efficient Statistical Tools for Big Matrices',
 un Meetup par Florian Privé,
 tenu le 7 avril 2022
 "> </a></p>
@@ -294,9 +297,9 @@ Extension
 
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="Meetup,Français,Développement,shiny,HTML" data-listing-date-sort="1642982400000" data-listing-file-modified-sort="1678569254075" data-listing-reading-time-sort="2.13">
+<div class="quarto-post image-right" data-index="3" data-categories="Meetup,Français,Développement,shiny,HTML" data-listing-date-sort="1642982400000" data-listing-file-modified-sort="1684073691421" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <div class="thumbnail">
-<p><a href="./posts/2022-01-24-golem/index.html"> <img src="./posts/2022-01-24-golem/2022-02-24.png" class="thumnail-image" alt="Affiche de &amp;#039;De la Création au Déploiement d'Applications {shiny} avec {golem}',
+<p><a href="./posts/2022-01-24-golem/index.html"> <img src="./posts/2022-01-24-golem/2022-02-24.png" class="thumbnail-image" alt="Affiche de &amp;#039;De la Création au Déploiement d'Applications {shiny} avec {golem}',
 un Meetup par Margot Brard,
 tenu le 24 février 2022
 "> </a></p>
@@ -340,9 +343,9 @@ HTML
 
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="Meetup,Français,Développement,shiny,HTML" data-listing-date-sort="1642896000000" data-listing-file-modified-sort="1678569254075" data-listing-reading-time-sort="1.895">
+<div class="quarto-post image-right" data-index="4" data-categories="Meetup,Français,Développement,shiny,HTML" data-listing-date-sort="1642896000000" data-listing-file-modified-sort="1684073691417" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="./posts/2022-01-23-shiny-workshop/index.html"> <img src="./posts/2022-01-23-shiny-workshop/2022-02-06.png" class="thumnail-image" alt="Affiche de &amp;#039;A la Découverte de la Création des Applications R {shiny}',
+<p><a href="./posts/2022-01-23-shiny-workshop/index.html"> <img src="./posts/2022-01-23-shiny-workshop/2022-02-06.png" class="thumbnail-image" alt="Affiche de &amp;#039;A la Découverte de la Création des Applications R {shiny}',
 un Meetup par Mohamed Fodil,
 tenu le 6 février 2022
 "> </a></p>
@@ -386,9 +389,9 @@ HTML
 
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="Meetup,Français,Extension,Spatial" data-listing-date-sort="1635206400000" data-listing-file-modified-sort="1678569254071" data-listing-reading-time-sort="1.75">
+<div class="quarto-post image-right" data-index="5" data-categories="Meetup,Français,Extension,Spatial" data-listing-date-sort="1635206400000" data-listing-file-modified-sort="1684073691417" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="./posts/2021-10-26-spatial-analysis-sf/index.html"> <img data-src="./posts/2021-10-26-spatial-analysis-sf/2021-11-18.png" class="thumnail-image" alt="Affiche de &amp;#039;Analyse Spatiale Sous R, Avec L'Extension {sf}',
+<p><a href="./posts/2021-10-26-spatial-analysis-sf/index.html"> <img data-src="./posts/2021-10-26-spatial-analysis-sf/2021-11-18.png" class="thumbnail-image" alt="Affiche de &amp;#039;Analyse Spatiale Sous R, Avec L'Extension {sf}',
 un Meetup par Aniss Louchez,
 tenu le 18 novembre 2021
 "> </a></p>
@@ -429,9 +432,9 @@ Julien HAMONIER
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="Meetup,Français,Développement,Bonne Pratique" data-listing-date-sort="1633392000000" data-listing-file-modified-sort="1678569254071" data-listing-reading-time-sort="1.37">
+<div class="quarto-post image-right" data-index="6" data-categories="Meetup,Français,Développement,Bonne Pratique" data-listing-date-sort="1633392000000" data-listing-file-modified-sort="1684073691413" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="./posts/2021-10-05-resilient-r-user/index.html"> <img data-src="./posts/2021-10-05-resilient-r-user/2021-12-02.png" class="thumnail-image" alt="Affiche de &amp;#039;Être Un•e Utilisateur•rice De R Résilient•e',
+<p><a href="./posts/2021-10-05-resilient-r-user/index.html"> <img data-src="./posts/2021-10-05-resilient-r-user/2021-12-02.png" class="thumbnail-image" alt="Affiche de &amp;#039;Être Un•e Utilisateur•rice De R Résilient•e',
 un Meetup par Maëlle Salmon,
 tenu le 2 décembre 2021
 "> </a></p>
@@ -472,9 +475,9 @@ Bonne Pratique
 
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="Meetup,Anglais,Reproductibilité,Extension" data-listing-date-sort="1619913600000" data-listing-file-modified-sort="1678569254067" data-listing-reading-time-sort="1.545">
+<div class="quarto-post image-right" data-index="7" data-categories="Meetup,Anglais,Reproductibilité,Extension" data-listing-date-sort="1619913600000" data-listing-file-modified-sort="1684073691413" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="./posts/2021-05-02-reproducible-computation-targets/index.html"> <img data-src="./posts/2021-05-02-reproducible-computation-targets/2021-06-17.png" class="thumnail-image" alt="Affiche de &amp;#039;Reproducible Computation At Scale In R With {targets}',
+<p><a href="./posts/2021-05-02-reproducible-computation-targets/index.html"> <img data-src="./posts/2021-05-02-reproducible-computation-targets/2021-06-17.png" class="thumbnail-image" alt="Affiche de &amp;#039;Reproducible Computation At Scale In R With {targets}',
 un Meetup par Will Landau,
 tenu le 17 juin 2021
 "> </a></p>
@@ -515,9 +518,9 @@ Extension
 
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="Meetup,Anglais,Reproductibilité" data-listing-date-sort="1616716800000" data-listing-file-modified-sort="1678569254067" data-listing-reading-time-sort="1.23">
+<div class="quarto-post image-right" data-index="8" data-categories="Meetup,Anglais,Reproductibilité" data-listing-date-sort="1616716800000" data-listing-file-modified-sort="1684073691409" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="./posts/2021-03-26-journey-transparency/index.html"> <img data-src="./posts/2021-03-26-journey-transparency/2021-04-15.png" class="thumnail-image" alt="Affiche de &amp;#039;My Journey To Transparency And Reproducibility',
+<p><a href="./posts/2021-03-26-journey-transparency/index.html"> <img data-src="./posts/2021-03-26-journey-transparency/2021-04-15.png" class="thumbnail-image" alt="Affiche de &amp;#039;My Journey To Transparency And Reproducibility',
 un Meetup par Mickaël CANOUIL,
 tenu le 15 avril 2021
 "> </a></p>
@@ -555,9 +558,9 @@ Reproductibilité
 
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="Meetup,Anglais,Développement,extension" data-listing-date-sort="1616716800000" data-listing-file-modified-sort="1678569254067" data-listing-reading-time-sort="1.625">
+<div class="quarto-post image-right" data-index="9" data-categories="Meetup,Anglais,Développement,extension" data-listing-date-sort="1616716800000" data-listing-file-modified-sort="1684073691409" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="./posts/2021-03-26-rmd-first-method/index.html"> <img data-src="./posts/2021-03-26-rmd-first-method/2021-04-29.png" class="thumnail-image" alt="Affiche de &amp;#039;How To Build A Package With The Rmd First Method',
+<p><a href="./posts/2021-03-26-rmd-first-method/index.html"> <img data-src="./posts/2021-03-26-rmd-first-method/2021-04-29.png" class="thumbnail-image" alt="Affiche de &amp;#039;How To Build A Package With The Rmd First Method',
 un Meetup par Sébastien Rochette,
 tenu le 29 avril 2021
 "> </a></p>
@@ -598,9 +601,9 @@ extension
 
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="Meetup,Français,Enseignement" data-listing-date-sort="1613088000000" data-listing-file-modified-sort="1678569254063" data-listing-reading-time-sort="0.565">
+<div class="quarto-post image-right" data-index="10" data-categories="Meetup,Français,Enseignement" data-listing-date-sort="1613088000000" data-listing-file-modified-sort="1684073691409" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
-<p><a href="./posts/2021-02-12-enseignement-r/index.html"> <img data-src="./posts/2021-02-12-enseignement-r/2021-02-17.png" class="thumnail-image" alt="Affiche de &amp;#039;Enseignement &amp; R',
+<p><a href="./posts/2021-02-12-enseignement-r/index.html"> <img data-src="./posts/2021-02-12-enseignement-r/2021-02-17.png" class="thumbnail-image" alt="Affiche de &amp;#039;Enseignement &amp; R',
 un Meetup par Mathilde BOISSEL et Julien HAMONIER,
 tenu le 17 février 2021
 "> </a></p>
@@ -638,9 +641,9 @@ Mathilde BOISSEL
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="Meetup,Français,HTML" data-listing-date-sort="1603152000000" data-listing-file-modified-sort="1678569254063" data-listing-reading-time-sort="0.595">
+<div class="quarto-post image-right" data-index="11" data-categories="Meetup,Français,HTML" data-listing-date-sort="1603152000000" data-listing-file-modified-sort="1684073691409" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
-<p><a href="./posts/2020-10-20-flexdasboard/index.html"> <img data-src="./posts/2020-10-20-flexdasboard/2020-10-30.png" class="thumnail-image" alt="Affiche de &amp;#039;flexdashboard Pour Des Tableaux de Bords (HTML) Interactifs',
+<p><a href="./posts/2020-10-20-flexdasboard/index.html"> <img data-src="./posts/2020-10-20-flexdasboard/2020-10-30.png" class="thumbnail-image" alt="Affiche de &amp;#039;flexdashboard Pour Des Tableaux de Bords (HTML) Interactifs',
 un Meetup par Daniel Podevin,
 tenu le 30 octobre 2020
 "> </a></p>
@@ -678,9 +681,9 @@ HTML
 
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="Meetup,Français,Développement,Bonne Pratique" data-listing-date-sort="1599696000000" data-listing-file-modified-sort="1678569254063" data-listing-reading-time-sort="1.03">
+<div class="quarto-post image-right" data-index="12" data-categories="Meetup,Français,Développement,Bonne Pratique" data-listing-date-sort="1599696000000" data-listing-file-modified-sort="1684073691405" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="./posts/2020-09-10-debuter-avec-r/index.html"> <img data-src="./posts/2020-09-10-debuter-avec-r/2020-10-07.png" class="thumnail-image" alt="Affiche de &amp;#039;Débuter avec R en Commençant par le Début ...',
+<p><a href="./posts/2020-09-10-debuter-avec-r/index.html"> <img data-src="./posts/2020-09-10-debuter-avec-r/2020-10-07.png" class="thumbnail-image" alt="Affiche de &amp;#039;Débuter avec R en Commençant par le Début ...',
 un Meetup par Mickaël Canouil,
 tenu le 7 octobre 2020
 "> </a></p>
@@ -721,9 +724,9 @@ Bonne Pratique
 
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="Actualités,Français" data-listing-date-sort="1580428800000" data-listing-file-modified-sort="1678569254059" data-listing-reading-time-sort="1.38">
+<div class="quarto-post image-right" data-index="13" data-categories="Actualités,Français" data-listing-date-sort="1580428800000" data-listing-file-modified-sort="1684073691405" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="./posts/2020-01-31-rlille-welcome/index.html"> <img data-src="./posts/2020-01-31-rlille-welcome/2020-01-31.png" class="thumnail-image" alt="Affiche R Lille indiquant la date (3&amp; janvier 2020), le titre (Réunion d'Information) et les auteurs du meetup"> </a></p>
+<p><a href="./posts/2020-01-31-rlille-welcome/index.html"> <img data-src="./posts/2020-01-31-rlille-welcome/2020-01-31.png" class="thumbnail-image" alt="Affiche R Lille indiquant la date (3&amp; janvier 2020), le titre (Réunion d'Information) et les auteurs du meetup"> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2020-01-31-rlille-welcome/index.html">
@@ -790,9 +793,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -857,6 +874,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -900,8 +1003,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Powered by <a href="https://quarto.org">Quarto</a>.</div>   
-      <div class="nav-footer-center">© 2022 R Lille (R User Group).<br>
-License: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY NC SA 4.0</a>.</div>
+    <div class="nav-footer-center">© 2022 R Lille (R User Group).<br>
+License: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY NC SA 4.0</a>.<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/RLille/rlille.fr/edit/main/index.qmd" class="toc-action">Modifier cette page</a></p><p><a href="https://github.com/RLille/rlille.fr/issues/new" class="toc-action">Faire part d'un problème</a></p></div></div></div>
     <div class="nav-footer-right">Supported by <a href="https://www.r-consortium.org/"><img src="./media/RConsortium_Horizontal_Pantone.png" alt="R Consortium Logo" style="height:1.5em;"></a>.</div>
   </div>
 </footer>
