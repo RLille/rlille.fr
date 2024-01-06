@@ -20,9 +20,6 @@ website:
     site: "@RLilleRUG"
     creator: "@MickaelCanouil"
     card-style: summary_large_image
-  comments: 
-    utterances:
-      repo: mcanouil/rlille.fr
   page-navigation: true
   page-footer:
     left: |
@@ -55,3 +52,22 @@ format:
     css: styles.css
     lang: fr
     date-format: long
+    include-after-body:
+      text: |
+        <script type="text/javascript">
+        var banner = document.createElement("div");
+        banner.innerHTML = "Le groupe est actuellement en pause.";
+        banner.classList.add("banner");
+        banner.style.fontStyle = "italic";
+        var body = document.body;
+        body.insertBefore(banner, body.firstChild);
+        </script>
+        <style type="text/css">
+        .banner {
+          background-color: #f0f0f0;
+          color: #000;
+          padding: 1em;
+          text-align: center;
+          z-index: 9999;
+        }
+        </style>
