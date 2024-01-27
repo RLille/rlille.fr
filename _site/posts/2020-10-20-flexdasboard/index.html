@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.5.4">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Mickaël CANOUIL">
 
-<title>R Lille - Groupe des Utilisateurs•rices R de Lille - “flexdashboard” Pour Des Tableaux de Bords (HTML) Interactifs</title>
+<title>R Lille - Groupe des Utilisateurs•rices R de Lille – “flexdashboard” Pour Des Tableaux de Bords (HTML) Interactifs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -49,7 +49,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "Pas de résultats",
     "search-matching-documents-text": "documents trouvés",
@@ -58,6 +64,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "correspondance de plus dans ce document",
     "search-more-matches-text": "correspondances de plus dans ce document",
     "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Annuler",
     "search-submit-button-title": "Envoyer",
     "search-label": "Recherche"
@@ -68,22 +75,22 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="R Lille">
 <meta property="og:description" content="Groupe des Utilisateurs•rices de R de Lille">
-<meta property="og:image" content="https://rlille.fr/media/social.png">
-<meta property="og:site-name" content="R Lille - Groupe des Utilisateurs•rices R de Lille">
-<meta property="og:image:height" content="600">
-<meta property="og:image:width" content="1200">
+<meta property="og:image" content="https://rlille.fr/posts/2020-10-20-flexdasboard/2020-10-30.png">
+<meta property="og:site_name" content="R Lille - Groupe des Utilisateurs•rices R de Lille">
+<meta property="og:image:height" content="1005">
+<meta property="og:image:width" content="1920">
 <meta property="og:image:alt" content="Affiche de 'flexdashboard Pour Des Tableaux de Bords (HTML) Interactifs',
 un Meetup par Daniel Podevin,
 tenu le 30 octobre 2020
 ">
 <meta name="twitter:title" content="R Lille">
 <meta name="twitter:description" content="Groupe des Utilisateurs•rices de R de Lille">
-<meta name="twitter:image" content="https://rlille.fr/media/social.png">
+<meta name="twitter:image" content="https://rlille.fr/posts/2020-10-20-flexdasboard/2020-10-30.png">
 <meta name="twitter:creator" content="@MickaelCanouil">
 <meta name="twitter:site" content="@RLilleRUG">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image-height" content="600">
-<meta name="twitter:image-width" content="1200">
+<meta name="twitter:image-height" content="1005">
+<meta name="twitter:image-width" content="1920">
 <meta name="twitter:image:alt" content="Affiche de 'flexdashboard Pour Des Tableaux de Bords (HTML) Interactifs',
 un Meetup par Daniel Podevin,
 tenu le 30 octobre 2020
@@ -93,10 +100,10 @@ tenu le 30 octobre 2020
 <body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../../media/icon.svg" alt="" class="navbar-logo">
     </a>
@@ -111,33 +118,33 @@ tenu le 30 octobre 2020
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html" rel="" target="">
- <span class="menu-text">À Propos</span></a>
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">À Propos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://www.meetup.com/R-Lille/" rel="" target="">
- <span class="menu-text"><i class="fa-brands fa-meetup" aria-hidden="true"></i></span></a>
+    <a class="nav-link" href="https://www.meetup.com/R-Lille/"> 
+<span class="menu-text"><i class="fa-brands fa-meetup" aria-hidden="true"></i></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://github.com/RLille/" rel="" target="">
- <span class="menu-text"><i class="fa-brands fa-github" aria-hidden="true"></i></span></a>
+    <a class="nav-link" href="https://github.com/RLille/"> 
+<span class="menu-text"><i class="fa-brands fa-github" aria-hidden="true"></i></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://twitter.com/RLille_RUG" rel="" target="">
- <span class="menu-text"><i class="fa-brands fa-twitter" aria-hidden="true"></i></span></a>
+    <a class="nav-link" href="https://twitter.com/RLille_RUG"> 
+<span class="menu-text"><i class="fa-brands fa-twitter" aria-hidden="true"></i></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://www.youtube.com/c/RLille" rel="" target="">
- <span class="menu-text"><i class="fa-brands fa-youtube" aria-hidden="true"></i></span></a>
+    <a class="nav-link" href="https://www.youtube.com/c/RLille"> 
+<span class="menu-text"><i class="fa-brands fa-youtube" aria-hidden="true"></i></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://r-grrr.slack.com/archives/C042K6XB34G" rel="" target="">
- <span class="menu-text"><i class="fa-brands fa-slack" aria-hidden="true"></i></span></a>
+    <a class="nav-link" href="https://r-grrr.slack.com/archives/C042K6XB34G"> 
+<span class="menu-text"><i class="fa-brands fa-slack" aria-hidden="true"></i></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -185,13 +192,14 @@ tenu le 30 octobre 2020
 
 
 
+
 <p>Bonjour à toutes et tous,</p>
 <p>R Lille (le groupe des utilisateurs•rices de R) organise son second MeetUp&nbsp;:<br>
 <strong>“flexdashboard” Pour Des Tableaux de Bords (HTML) Interactifs</strong></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="2020-10-30.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Affiche Événement</figcaption>
+<figcaption>Affiche Événement</figcaption>
 </figure>
 </div>
 <blockquote class="blockquote">
@@ -289,10 +297,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -302,8 +309,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -316,6 +332,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -359,6 +494,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -384,6 +520,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -445,13 +607,21 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <script src="https://giscus.app/client.js" data-repo="RLille/rlille.fr" data-repo-id="R_kgDOGjFTPA" data-category="Blog" data-category-id="DIC_kwDOGjFTPM4CQbX3" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
 </script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Powered by <a href="https://quarto.org">Quarto</a>.</div>   
-    <div class="nav-footer-center">© 2022 R Lille (R User Group).<br>
-License: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY NC SA 4.0</a>.<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/RLille/rlille.fr/edit/main/posts/2020-10-20-flexdasboard/index.qmd" class="toc-action">Modifier cette page</a></p><p><a href="https://github.com/RLille/rlille.fr/issues/new" class="toc-action">Faire part d'un problème</a></p></div></div></div>
-    <div class="nav-footer-right">Supported by <a href="https://www.r-consortium.org/"><img src="../../media/RConsortium_Horizontal_Pantone.png" alt="R Consortium Logo" style="height:1.5em;"></a>.</div>
+    <div class="nav-footer-left">
+<p>Powered by <a href="https://quarto.org">Quarto</a>.</p>
+</div>   
+    <div class="nav-footer-center">
+<p>© 2022 R Lille (R User Group).<br>
+License: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY NC SA 4.0</a>.</p>
+<div class="toc-actions"><ul><li><a href="https://github.com/RLille/rlille.fr/edit/main/posts/2020-10-20-flexdasboard/index.qmd" class="toc-action"><i class="bi bi-github"></i>Modifier cette page</a></li><li><a href="https://github.com/RLille/rlille.fr/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Supported by <a href="https://www.r-consortium.org/"><img src="../../media/RConsortium_Horizontal_Pantone.png" alt="R Consortium Logo" style="height:1.5em;"></a>.</p>
+</div>
   </div>
 </footer>
 <script type="text/javascript">
@@ -471,6 +641,7 @@ body.insertBefore(banner, body.firstChild);
   z-index: 9999;
 }
 </style>
+
 
 
 
