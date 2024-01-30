@@ -9,12 +9,12 @@ website:
   announcement: 
     icon: info-circle
     dismissable: true
+    type: primary
+    position: above-navbar
     content: |
       **Info** - Le groupe est actuellement en pause.
       Nous vous tiendrons informé•e•s de la reprise des activités.
       Vous pouvez nous contacter via [Slack](https://r-grrr.slack.com/archives/C042K6XB34G) ou [courriel](mailto:contact@rlille.fr).
-
-    type: primary
   title: "R Lille - Groupe des Utilisateurs•rices R de Lille"
   description: "Groupe des Utilisateurs•rices de R de Lille"
   favicon: /media/icon.svg
