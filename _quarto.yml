@@ -10,7 +10,7 @@ website:
     icon: info-circle
     dismissable: true
     type: primary
-    position: above-navbar
+    position: below-navbar
     content: |
       **Info** - Le groupe est actuellement en pause.
       Nous vous tiendrons informé•e•s de la reprise des activités.
