@@ -1,0 +1,15 @@
+{
+  "hash": "a5dd1b7ea0f500fdba7114b5e77e63f4",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Afterwork R Lille - Rencontre & Discussion\"\nauthor: \"[Mickaël CANOUIL](https://mickael.canouil.fr/)\"\ndate: \"2022-09-24\"\ncategories:\n  - Français\n  - Meetup\nimage: 2022-10-06.png\nimage-alt: |\n  Affiche de l'afterwork R Lille du jeudi 6 octobre à 18 h 30 à Lille\n---\n\n\n\n\nBonjour à toutes et tous,\n\nR Lille a vu le jour en février 2020, malgré le contexte, c'est tout de même 11 rencontres en ligne ou en présentiel.\n\nJe vous propose ici de faire le point sur ces presque deux ans de R Lille, sur vos attentes, vos envies, mais aussi de se retrouver pour tout simplement discuter et se rencontrer.\n\nRejoignez moi pour un afterwork le **Jeudi 6 Octobre 2022 à 18:30 CET** dans un **bar de Lille**.\n\n[![](2022-10-06.png){width=\"560\" height=\"315\" fig-alt=\"Affiche de l'afterwork R Lille du jeudi 6 octobre à 18 h 30 à Lille\"}](https://www.meetup.com/r-lille/events/288690120/)\n\nÀ des fins d'organisation, je vous invite à vous inscrire sur <https://www.meetup.com/r-lille/events/288690120/> pour qu'une réservation dans un établissement puisse être faite.\n\nÀ bientôt&nbsp;!  \nMickaël CANOUIL\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

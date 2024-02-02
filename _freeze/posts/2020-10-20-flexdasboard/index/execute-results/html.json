@@ -1,0 +1,15 @@
+{
+  "hash": "b93024379469e83934fc2ef8205c7c9f",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: '\"flexdashboard\" Pour Des Tableaux de Bords (HTML) Interactifs'\nauthor: \"[Mickaël CANOUIL](https://mickael.canouil.fr/)\"\ndate: \"2020-10-20\"\ncategories:\n  - Meetup\n  - Français\n  - HTML\nimage: 2020-10-30.png\nimage-alt: |\n  Affiche de 'flexdashboard Pour Des Tableaux de Bords (HTML) Interactifs',\n  un Meetup par Daniel Podevin,\n  tenu le 30 octobre 2020\n---\n\n\nBonjour à toutes et tous,\n \nR Lille (le groupe des utilisateurs•rices de R) organise son second MeetUp&nbsp;:  \n**\"flexdashboard\" Pour Des Tableaux de Bords (HTML) Interactifs**\n\n\n\n\n\n![Affiche Événement](2020-10-30.png)\n\n> \"[flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/index.html)\" permet la réalisation de tableau de bords statiques ou dynamiques ('Shiny') au moyen d'une structure en grille définie dans un script Rmarkdown.\n\nCelui-ci est proposé par **Daniel Podevin** et aura lieu le **Vendredi 30 Octobre à 12 h 30** dans **l’Amphithéâtre D (aile Ouest) de la Faculté de Médecine de Lille (Pôle Recherche)**.\n\nLes inscriptions sont par ici&nbsp;:\n\n* En ligne&nbsp;: <https://www.meetup.com/R-Lille/events/273921614/>\n* En présentiel&nbsp;: <https://www.meetup.com/R-Lille/events/274033022/>\n\nL'ensemble des diapositives sera mis à disposition sur le GitHub du groupe&nbsp;: <https://github.com/RLille/meetups>\n\nÀ bientôt&nbsp;!  \nMathilde BOISSEL, Julien HAMONIER et Mickaël CANOUIL\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

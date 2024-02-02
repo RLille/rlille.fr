@@ -1,0 +1,15 @@
+{
+  "hash": "b79172b7c15b1252b72d00113bbe904a",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Enseignement & R\"\nauthor: \"Mathilde BOISSEL\"\ndate: \"2021-02-12\"\ncategories:\n  - Meetup\n  - Français\n  - Enseignement\nimage: 2021-02-17.png\nimage-alt: |\n  Affiche de 'Enseignement & R',\n  un Meetup par Mathilde BOISSEL et Julien HAMONIER,\n  tenu le 17 février 2021\n---\n\n\nBonjour à toutes et tous,\n\nPour ce premier MeetUp 2021, nous vous proposons une réunion orientée sur l'**enseignement** et comment **R** peut y être utilisé. \n\n\n\n\n\n![Affiche Événement](2021-02-17.png)\n\nNous avons en tête un moment d'échange sur vos pratiques, méthodes, outils, _etc._, **plutôt en mode discussion que présentation**. \n\nSi vous enseignez du R ou que vous utilisez ce langage pour construire vos cours et que vous aimeriez partager/discuter de votre expérience, inscrivez-vous&nbsp;!\n\nCe MeetUp aura lieu en ligne (via **Zoom**), le **Mercredi 17 Février à 12&nbsp;h&nbsp;30**.\n\nLes inscriptions sont par ici&nbsp;: <http://meetup.rlille.fr/events/276325926/>\n\nL'ensemble des diapositives sera mis à disposition sur le GitHub du groupe&nbsp;: <https://github.com/RLille/meetups>\n\nÀ bientôt&nbsp;!  \nMathilde BOISSEL et Julien HAMONIER\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
