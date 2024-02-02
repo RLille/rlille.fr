@@ -1,7 +1,20 @@
 project:
   type: website
-freeze: auto
+
+lang: fr
+date-format: long
+freeze: true
+
 website:
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    type: primary
+    position: below-navbar
+    content: |
+      **Info** - Le groupe est actuellement en pause.
+      Nous vous tiendrons informé•e•s de la reprise des activités.
+      Vous pouvez nous contacter via [Slack](https://r-grrr.slack.com/archives/C042K6XB34G) ou [courriel](mailto:contact@rlille.fr).
   title: "R Lille - Groupe des Utilisateurs•rices R de Lille"
   description: "Groupe des Utilisateurs•rices de R de Lille"
   favicon: /media/icon.svg
@@ -25,7 +38,7 @@ website:
     left: |
       Powered by [Quarto](https://quarto.org).
     center: |
-      &copy; 2022 R Lille (R User Group).  
+      &copy; 2024 R Lille (R User Group).  
       License: [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0).
     right: |
       Supported by [<img src="/media/RConsortium_Horizontal_Pantone.png" alt="R Consortium Logo" style="height:1.5em;"/>](https://www.r-consortium.org/).
@@ -46,28 +59,8 @@ website:
         href: https://www.youtube.com/c/RLille
       - text: "{{< fa brands slack >}}"
         href: https://r-grrr.slack.com/archives/C042K6XB34G
+
 format:
   html:
     theme: simplex
-    css: styles.css
-    lang: fr
-    date-format: long
-    include-after-body:
-      text: |
-        <script type="text/javascript">
-        var banner = document.createElement("div");
-        banner.innerHTML = "Le groupe est actuellement en pause.";
-        banner.classList.add("banner");
-        banner.style.fontStyle = "italic";
-        var body = document.body;
-        body.insertBefore(banner, body.firstChild);
-        </script>
-        <style type="text/css">
-        .banner {
-          background-color: #f0f0f0;
-          color: #000;
-          padding: 1em;
-          text-align: center;
-          z-index: 9999;
-        }
-        </style>
+    email-obfuscation: javascript
