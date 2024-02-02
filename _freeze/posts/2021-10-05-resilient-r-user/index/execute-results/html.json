@@ -1,0 +1,15 @@
+{
+  "hash": "3903171c20652751158b1083e69bd337",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Être Un•e Utilisateur•rice De R Résilient•e\"\nauthor: \"[Mickaël CANOUIL](https://mickael.canouil.fr/)\"\ndate: \"2021-10-05\"\ncategories:\n  - Meetup\n  - Français\n  - Développement\n  - Bonne Pratique\nimage: 2021-12-02.png\nimage-alt: |\n  Affiche de 'Être Un•e Utilisateur•rice De R Résilient•e',\n  un Meetup par Maëlle Salmon,\n  tenu le 2 décembre 2021\n---\n\n\nBonjour à toutes et tous,\n \nR Lille organise un nouveau MeetUp&nbsp;:  \n**Être un•e utilisateur•rice de R résilient•e**\n\n<center>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Jt0-x_w1Rzw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</center>\n\n\n\n\n\n<!-- <center>\n![Affiche Événement](2021-12-02.png)\n</center> -->\n  \n> _[Résumé]_  \n> Apprendre R est une excellente idée pour réaliser différentes tâches au travail.  \n> Cependant, même une fois passé·e au-delà de \"Bonjour Monde\", vous continuerez régulièrement à avoir des problèmes dans R ...  \n> Triste constat&nbsp;? Non, car vous apprendrez aussi à devenir un·e utilisateur·rice de R résilient·e&nbsp;!\n> \n> _[Bio]_  \n> Maëlle Salmon (<https://masalmon.eu/>), docteure en statistique, travaille avec R depuis des années.  \n> Elle essaie tant bien que mal de suivre ses propres conseils pour ne pas se laisser décourager par des erreurs.&nbsp;:-)  \n> Elle est ingénieure de programmation pour la recherche à temps partiel pour [rOpenSci](https://ropensci.org/), et réalise d'autres missions souvent en lien avec le développement de paquets. \n> Elle a par exemple crée le [blog R-hub](https://blog.r-hub.io/).  \n> Par ailleurs, elle est éditrice bénévole pour le système de revue de paquets de [rOpenSci](https://ropensci.org/) et gère le compte Twitter de [R-Ladies Global](https://twitter.com/RLadiesGlobal).\n> \n> _[A Propos]_  \n> Cet événement est organisé par [R Lille](https://rlille.fr) (Lille, France) et aura lieu en français.\n\nCelui-ci sera présenté par **Maëlle Salmon** (<https://masalmon.eu/>) sur invitation de __R Lille__ et aura lieu le **jeudi 2 décembre 2021 à 12 h 00 (CET / UTC + 1)** en ligne.\n\nLes inscriptions sont sur Meetup&nbsp;: <http://meetup.rlille.fr/events/281225809/>\n\nL'ensemble des diapositives sera mis à disposition sur le GitHub du groupe&nbsp;: <https://github.com/RLille/meetups>\n\nLe Meetup sera enrigistré et diffusé sur Youtube (<http://youtube.rlille.fr/>).\n\nÀ bientôt&nbsp;!  \nMickaël CANOUIL\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "hash": "3ce84ada41c93712036b0330e79ae3a0",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: '\"Débuter\" avec R en Commençant par le Début ...'\nauthor: \"[Mickaël CANOUIL](https://mickael.canouil.fr/)\"\ndate: \"2020-09-10\"\ncategories:\n  - Meetup\n  - Français\n  - Développement\n  - Bonne Pratique\nimage: 2020-10-07.png\nimage-alt: |\n  Affiche de 'Débuter avec R en Commençant par le Début ...',\n  un Meetup par Mickaël Canouil,\n  tenu le 7 octobre 2020\n---\n\n\nBonjour à toutes et tous,\n \nR Lille (le groupe des utilisateurs•rices de R) organise son premier MeetUp&nbsp;:  \n**\"Débuter\" avec R en Commençant par le Début ...**\n\n\n\n\n\n![Affiche Événement](2020-10-07.png)\n\nCelui-ci aura lieu le **Mercredi 7 Octobre à 12 h 00** dans **l’Amphithéâtre D (aile Ouest) de la Faculté de Médecine de Lille (Pôle Recherche)**.\n\nLes inscriptions sont par ici&nbsp;: <https://www.meetup.com/R-Lille/events/273159362/>  \nCe MeetUp n'est ouvert qu'à **30 participants**.  \nL'ensemble des diapositives sera mis à disposition sur le GitHub du groupe&nbsp;: <https://github.com/RLille/meetups>\n\n> Vous souhaitez démarrer avec de bonnes bases&nbsp;?  \n> Vous suspectez que vous n'avez pas que des bonnes pratiques/habitudes&nbsp;?  \n> Vous aimeriez améliorer ou modifier votre pratique de R, pour être plus efficace et plus autonome&nbsp;?  \n> Vous ignorez ce que sont les fichiers `.Rdata`, `.rds`, `.R`, `.Rmd`, `.Renviron` et/ou `.Rprofile`&nbsp;?  \n> Vous maitrisez les commandes `rm(list = ls())` et `setwd()`&nbsp;?\n>\n> Ce premier MeetUp vise à donner quelques trucs et astuces autour de R et de l'IDE Rstudio, ainsi qu'ouvrir la discussion sur quelques \"règles/conventions\" de bonnes pratiques dans un objectif de reproductibilité.\n>\n> Lieu&nbsp;: Faculté de Médecine de Lille - Pôle Recherche - Amphithéâtre D (aile Ouest)\n\nÀ bientôt&nbsp;!  \nMathilde BOISSEL, Julien HAMONIER et Mickaël CANOUIL\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "hash": "7aa2f62a0f2fd7c7607d25b1741fd4b5",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"My Journey To Transparency And Reproducibility\"\nauthor: \"[Mickaël CANOUIL](https://mickael.canouil.fr/)\"\ndate: \"2021-03-26\"\ncategories:\n  - Meetup\n  - Anglais\n  - Reproductibilité\nimage: 2021-04-15.png\nimage-alt: |\n  Affiche de 'My Journey To Transparency And Reproducibility',\n  un Meetup par Mickaël CANOUIL,\n  tenu le 15 avril 2021\n---\n\n\nBonjour à toutes et tous,\n \nR Lille  organise un nouveau MeetUp sur le thème de la reproductibilité&nbsp;:  \n**My Journey To Transparency And Reproducibility**\n\n<center>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1CE8crjkwYY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</center>\n<!-- <center>\n\n\n\n\n![Affiche Événement](2021-04-15.png)\n\n</center> -->\n\n> _[Résumé]_  \n> Dans cette présentation, je (Mickaël CANOUIL, <https://mickael.canouil.fr>) vais vous conter mon parcours vers un environnement de travail plus transparent et reproductible. Je vais parler des changements et des améliorations que j’ai mis en œuvre dans mon équipe, détaillant la transition de l’infrastructure utilisée quand je suis arrivé à une infrastructure en utilisant Docker et l'extension R {renv}.\n> \n> _[Bio]_  \n> Je suis biostatisticien (Ph.D.) et responsable d’une petite équipe au sein d’un laboratoire de recherche, travaillant principalement sur la génétique du diabète et de l’obésité.  \n> J’ai développé quelques extensions R, et bien que certaines ne soient pas très utiles, elles sont très certainement divertissantes (_p.ex._, <https://github.com/mcanouil/ggpacman/>).  \n> J’aime aussi regarder des films et jouer avec R (<https://m.canouil.fr/imdb_ratings/>).\n> \n> _[A Propos]_  \n> Cet événement est organisé par R Lille (Lille, France) et aura lieu en anglais.\n\nCelui-ci est proposé par **Mickaël CANOUIL** et aura lieu le **jeudi 15 avril 2021 à 19 h 00 (CEST / UTC + 2)** en ligne.\n\nLes inscriptions sont sur Meetup&nbsp;: <http://meetup.rlille.fr/events/277031496/>\n\nL'ensemble des diapositives sera mis à disposition sur le GitHub du groupe&nbsp;: <https://github.com/RLille/meetups>\n\nLe Meetup sera enrigistré et diffusé sur Youtube (http://youtube.rlille.fr/).\n\nÀ bientôt&nbsp;!  \nMickaël CANOUIL\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

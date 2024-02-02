@@ -1,0 +1,15 @@
+{
+  "hash": "3080f7b845999f5fdb401a1226baab56",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Bienvenue à R Lille\"\nauthor: \"[Mickaël CANOUIL](https://mickael.canouil.fr/)\"\ndate: \"2020-01-31\"\ncategories:\n  - Actualités\n  - Français\nimage: 2020-01-31.png\nimage-alt: \"Affiche R Lille indiquant la date (3& janvier 2020), le titre (Réunion d'Information) et les auteurs du meetup\"\n---\n\n\nBonjour à toutes et tous,\n \nPour information, depuis très récemment, il existe un groupe des utilisateurs•rices du logiciel/langage R à Lille.\n\n\n\n\n\n![Affiche Événement](2020-01-31.png)\n\n> **R Lille**\n> \n> Vous utilisez R pour le travail et/ou le loisir&nbsp;?  \n> Vous êtes curieux, débutant ou expert en R&nbsp;?  \n> Vous êtes localisé sur Lille et sa périphérie, ou simplement de passage&nbsp;?\n> \n> Et plus important encore, vous avez envie d'échanger sur R et les nombreuses possibilités qu'offre ce logiciel et ses plus de 17 milles extensions&nbsp;?\n> \n> Si la réponse est \"oui\" à l'une de ses questions, rejoignez-nous sans plus tarder&nbsp;!\n \nL'idée du groupe (soutenu par le R Consortium, <https://www.r-consortium.org/>) est de mettre en relation les utilisateurs•rices de R de Lille et sa région et ce peu importe le domaine d'application ou le niveau des utilisateurs•rices en question.\n\n<center>![](/media/RConsortium_Horizontal_Pantone.png){width=50%}</center>\n\nCe groupe est présent sur la plateforme meetup&nbsp;: <https://meetup.com/R-Lille/>  \nMeetup (inscription gratuite) est un service permettant d'organiser des évènements au sein de groupe avec des thématiques données.\n \nLe meilleur moyen d'être tenu au courant des événements de R Lille est de vous inscrire sur meetup pour recevoir les informations via la liste de diffusion du groupe.\n \nLe groupe prévoit de mettre à disposition le matériel utilisé lors de ces prochaines réunions sur GitHub&nbsp;: <https://github.com/RLille>.  \nLes diapositives de la réunion d'information du vendredi 31 janvier sont d'ores et déjà disponible (<https://github.com/RLille/meetups>).  \nGitHub (inscription gratuite) est une plateforme de développement rassemblant des millions de développeurs et permettant de découvrir, partager et développer de meilleur outils par un système de suivi de modification (Git).\n \nÀ bientôt&nbsp;!  \nMathilde BOISSEL, Julien HAMONIER et Mickaël CANOUIL\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

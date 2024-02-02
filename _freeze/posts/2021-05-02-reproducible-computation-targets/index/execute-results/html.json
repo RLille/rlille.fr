@@ -1,0 +1,15 @@
+{
+  "hash": "76b534228b14a197d8e65322bb9f428e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Reproducible Computation At Scale In R With {targets}\"\nauthor: \"[Mickaël CANOUIL](https://mickael.canouil.fr/)\"\ndate: \"2021-05-02\"\ncategories:\n  - Meetup\n  - Anglais\n  - Reproductibilité\n  - Extension\nimage: 2021-06-17.png\nimage-alt: |\n  Affiche de 'Reproducible Computation At Scale In R With {targets}',\n  un Meetup par Will Landau,\n  tenu le 17 juin 2021\n---\n\n\nBonjour à toutes et tous,\n \nR Lille  organise un nouveau MeetUp sur le thème de la reproductibilité des analyses&nbsp;:  \n**Reproducible Computation at Scale in R with {targets}**\n\n<center>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/FODSavXGjYg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</center>\n\n\n\n\n\n<!-- <center>\n![Affiche Événement](2021-06-17.png)\n</center> -->\n\n> _[Résumé]_  \n> L'extension R {targets} (<https://docs.ropensci.org/targets/>) améliore la reproductibilité, la mise à l'échelle et la maintenabilité des projets de science des données dans des domaines utilisants des méthodes de calcul intensif tels que l'apprentissage automatique, l'analyse de données bayésiennes et la statistique génomique. \n> {targets} identifie la structure de dépendance des éléments du pipeline d'analyse, ignore les tâches à jour, exécute le reste et gère le stockage des données, tout en offrant des options de calcul distribué.\n> {stantargets} (<https://docs.ropensci.org/stantargets/>) et extensions similaires, étendent {targets} pour simplifier la construction de pipelines pour des domaines d'application spécifiques, tels que la validation de modèles bayésiens.\n> \n> _[Bio]_  \n> Will Landau (<https://wlandau.github.io/>) travaille pour Eli Lilly and Company (<https://www.lilly.com/>) où il développe des méthodes et des outils pour les statisticiens/cliniciens.\n> Il est le créateur et le mainteneur des extensions R {targets} et {drake}.\n> Will a obtenu son doctorat en statistique à l'Université d'État de l'Iowa en 2016, durant laquelle il a appliqué des méthodes bayésiennes, des modèles hiérarchiques et réalisé du calcul GPU dans le cadre d'analyse de données RNA-seq.\n> \n> _[A Propos]_  \n> Cet événement est organisé par R Lille (Lille, France) et aura lieu en anglais.\n\nCelui-ci sera présenté par **Will Landau** sur invitation de __R Lille__ et aura lieu le **jeudi 17 juin 2021 à 18 h 00 (CEST / UTC + 2)** en ligne.\n\nLes inscriptions sont sur Meetup&nbsp;: <http://meetup.rlille.fr/events/277902715/>\n\nL'ensemble des diapositives sera mis à disposition sur le GitHub du groupe&nbsp;: <https://github.com/RLille/meetups>\n\nLe Meetup sera enrigistré et diffusé sur Youtube (<http://youtube.rlille.fr/>).\n\nÀ bientôt&nbsp;!  \nMickaël CANOUIL\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
