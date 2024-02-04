@@ -38,7 +38,7 @@ website:
     left: |
       Powered by [Quarto](https://quarto.org).
     center: |
-      &copy; 2024 R Lille (R User Group).
+      &copy; 2024 R Lille (R User Group).  
       License: [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0).
     right: |
       Supported by [<img src="/media/RConsortium_Horizontal_Pantone.png" alt="R Consortium Logo" style="height:1.5em;"/>](https://www.r-consortium.org/).
