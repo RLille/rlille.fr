@@ -6,15 +6,15 @@ date-format: long
 freeze: true
 
 website:
-  announcement: 
+  announcement:
     icon: info-circle
     dismissable: true
-    type: primary
+    type: success
     position: below-navbar
     content: |
-      **Info** - Le groupe est actuellement en pause.
-      Nous vous tiendrons informé•e•s de la reprise des activités.
-      Vous pouvez nous contacter via [Slack](https://r-grrr.slack.com/archives/C042K6XB34G) ou [courriel](mailto:contact@rlille.fr).
+      **Info** - Le groupe reprend ses activités.
+      Nous vous tiendrons informé•e•s de la date de notre prochain évènement.
+      Une idée, une envie, venez en discuter via [Slack](https://r-grrr.slack.com/archives/C042K6XB34G) ou [courriel](mailto:contact@rlille.fr).
   title: "R Lille - Groupe des Utilisateurs•rices R de Lille"
   description: "Groupe des Utilisateurs•rices de R de Lille"
   favicon: /media/icon.svg
@@ -38,7 +38,7 @@ website:
     left: |
       Powered by [Quarto](https://quarto.org).
     center: |
-      &copy; 2024 R Lille (R User Group).  
+      &copy; 2024 R Lille (R User Group).
       License: [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0).
     right: |
       Supported by [<img src="/media/RConsortium_Horizontal_Pantone.png" alt="R Consortium Logo" style="height:1.5em;"/>](https://www.r-consortium.org/).

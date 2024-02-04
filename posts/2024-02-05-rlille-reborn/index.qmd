@@ -1,0 +1,30 @@
+---
+title: "R Lille - Reprise des activités"
+author: "[Arthur Bréant](https://breant.art/)"
+date: "2024-02-05"
+categories:
+  - Français
+  - Actualités
+image: 2024-02-05.png
+image-alt: |
+  R Lille - Reprise des activités
+---
+
+Bonjour à toutes et tous,
+
+4 ans après sa création en février 2020, malgré une petite interruption, nous avons le plaisir de vous annoncer la reprise des activités de R Lille&nbsp;!
+
+Arthur Bréant, consultant et formateur chez [ThinkR](https://thinkr.fr/), reprend le flambeau de l'organisation des évènements R Lille. Il a pour ambition de faire de R Lille un **lieu de rencontres et d'échanges** pour les utilisateurs de R dans la région lilloise.
+
+Mickaël Canouil, fondateur de R Lille, reste dans l'organisation et apportera son soutien à Arthur pour la reprise des activités.
+
+[![](2024-02-05.png){width="100%" height="315" fig-alt="R Lille - Reprise des activités"}](https://www.meetup.com/fr-FR/r-lille/)
+
+Afin de ne louper aucun de nos prochains évènements, je vous invite à rejoindre le groupe sur <https://www.meetup.com/fr-FR/r-lille/>. Nous reviendrons vers vous très prochainement pour vous annoncer la date du prochain évènement.
+
+D'ailleurs, si vous souhaitez partager avec le groupe vos connaissances et votre expérience, n'hésitez pas à nous contacter pour proposer un sujet de présentation ou un atelier.
+
+Pour nous contacter, vous pouvez nous écrire à l'adresse suivante&nbsp;: [courriel](mailto:contact@rlille.fr).
+
+À bientôt&nbsp;!  
+Arthur Bréant
