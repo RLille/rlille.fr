@@ -18,7 +18,7 @@ Arthur Bréant, consultant et formateur chez [ThinkR](https://thinkr.fr/), repre
 
 Mickaël Canouil, fondateur de R Lille, reste dans l'organisation et apportera son soutien à Arthur pour la reprise des activités.
 
-[![](2024-02-05.png){width="100%" height="315" fig-alt="R Lille - Reprise des activités"}](https://www.meetup.com/fr-FR/r-lille/)
+[![](2024-02-05.png){width="65%" fig-align="center" fig-alt="R Lille - Reprise des activités"}](https://www.meetup.com/fr-FR/r-lille/)
 
 Afin de ne louper aucun de nos prochains évènements, je vous invite à rejoindre le groupe sur <https://www.meetup.com/fr-FR/r-lille/>. Nous reviendrons vers vous très prochainement pour vous annoncer la date du prochain évènement.
 
