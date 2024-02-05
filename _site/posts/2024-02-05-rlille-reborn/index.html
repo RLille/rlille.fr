@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Mickaël CANOUIL">
+<meta name="author" content="Arthur Bréant">
 
-<title>R Lille - Groupe des Utilisateurs•rices R de Lille – Memory- and Computation-Efficient Statistical Tools for Big Matrices</title>
+<title>R Lille - Groupe des Utilisateurs•rices R de Lille – R Lille - Reprise des activités</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -74,25 +74,21 @@ ul.task-list li input[type="checkbox"] {
 
 <meta property="og:title" content="R Lille">
 <meta property="og:description" content="Groupe des Utilisateurs•rices de R de Lille">
-<meta property="og:image" content="https://rlille.fr/posts/2022-03-08-memory-computation-efficient-statistical-tools/2022-04-07.png">
+<meta property="og:image" content="https://rlille.fr/posts/2024-02-05-rlille-reborn/2024-02-05.png">
 <meta property="og:site_name" content="R Lille - Groupe des Utilisateurs•rices R de Lille">
 <meta property="og:image:height" content="1005">
 <meta property="og:image:width" content="1920">
-<meta property="og:image:alt" content="Affiche de 'Memory- and Computation-Efficient Statistical Tools for Big Matrices',
-un Meetup par Florian Privé,
-tenu le 7 avril 2022
+<meta property="og:image:alt" content="R Lille - Reprise des activités
 ">
 <meta name="twitter:title" content="R Lille">
 <meta name="twitter:description" content="Groupe des Utilisateurs•rices de R de Lille">
-<meta name="twitter:image" content="https://rlille.fr/posts/2022-03-08-memory-computation-efficient-statistical-tools/2022-04-07.png">
+<meta name="twitter:image" content="https://rlille.fr/posts/2024-02-05-rlille-reborn/2024-02-05.png">
 <meta name="twitter:creator" content="@MickaelCanouil">
 <meta name="twitter:site" content="@RLilleRUG">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image-height" content="1005">
 <meta name="twitter:image-width" content="1920">
-<meta name="twitter:image:alt" content="Affiche de 'Memory- and Computation-Efficient Statistical Tools for Big Matrices',
-un Meetup par Florian Privé,
-tenu le 7 avril 2022
+<meta name="twitter:image:alt" content="R Lille - Reprise des activités
 ">
 </head>
 
@@ -159,11 +155,10 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x6
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Memory- and Computation-Efficient Statistical Tools for Big Matrices</h1>
+      <h1 class="title">R Lille - Reprise des activités</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">Meetup</div>
-                <div class="quarto-category">Anglais</div>
-                <div class="quarto-category">Extension</div>
+                <div class="quarto-category">Français</div>
+                <div class="quarto-category">Actualités</div>
               </div>
                   </div>
   </div>
@@ -174,14 +169,14 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x6
       <div>
       <div class="quarto-title-meta-heading">Auteur·rice</div>
       <div class="quarto-title-meta-contents">
-               <p><a href="https://mickael.canouil.fr/">Mickaël CANOUIL</a> </p>
+               <p><a href="https://breant.art/">Arthur Bréant</a> </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Date de publication</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">8 mars 2022</p>
+        <p class="date">5 février 2024</p>
       </div>
     </div>
     
@@ -201,38 +196,24 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x6
 
 
 <p>Bonjour à toutes et tous,</p>
-<p>R Lille organise un nouveau MeetUp&nbsp;:<br>
-<strong>Memory- and Computation-Efficient Statistical Tools for Big Matrices</strong></p>
-<p>Celui-ci sera présenté par <strong>Florian Privé</strong> et aura lieu le <strong>Thursday, the 7<sup><i style="font-size:0.5em;">th</i></sup> of April, 2022 - 18:00 CET</strong>.</p>
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UXKYqpAo6cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
-</center>
-<!-- <center>
-![Affiche Événement](2022-04-07.png)
-</center> -->
-<blockquote class="blockquote">
-<p><em>[Résumé]</em><br>
-R package {bigstatsr} (<a href="https://github.com/privefl/bigstatsr" class="uri">https://github.com/privefl/bigstatsr</a>) provides functions for fast statistical analysis of large-scale data encoded as matrices. The package can handle matrices that are too large to fit in memory. The Package {bigstatsr} is based on a similar format (called <code>FBM</code>) as the format <code>big.matrix</code> provided by the R package {bigmemory}. The Package {bigstatsr} enables users with a laptop to perform statistical analysis of several dozens of gigabytes of data, and HPC users to handle matrices of hundreds of GB. The package is fast and efficient because of four different reasons. First, {bigstatsr} is memory-efficient because it uses only small chunks of data at a time. Second, special care has been taken to implement effective algorithms. Third, <code>FBM</code> objects use memory-mapping, which provides efficient accesses to matrices. Finally, as matrices are stored on-disk, many processes can easily access them in parallel.</p>
-<p>The main features currently available in {bigstatsr} are:</p>
-<ul>
-<li>truncated SVD/PCA,</li>
-<li>penalized linear/logistic regressions,</li>
-<li>column-wise linear/logistic regressions tests,</li>
-<li>matrix operations,</li>
-<li>parallelization / split-apply-combine stategy.</li>
-</ul>
-<p>In this webinar, I will present this package and its features, as well as quickly present two other packages, {bigsparser}, which provides an on-disk sparse matrix format, and {bigsnpr}, which extends {bigstatsr} to provide specific tools for analyzing genotype data.</p>
-<p><em>[Bio]</em><br>
-Florian Privé is a senior researcher in predictive human genetics, fond of Data Science and an R(cpp) enthusiast. He is also the founder and former organizer of the Grenoble R user group. You can find him on Twitter and GitHub as <span class="citation" data-cites="privefl">@privefl</span>.</p>
-<p><em>[A Propos]</em><br>
-This event (in English) is organised by the R Lille user group (<a href="https://rlille.fr/" class="uri">https://rlille.fr/</a>) (Lille, France). The meetup will be recorded and made available on YouTube (<a href="http://youtube.rlille.fr/" class="uri">http://youtube.rlille.fr/</a>).</p>
-</blockquote>
-<p>Les inscriptions sont sur Meetup&nbsp;: <a href="http://meetup.rlille.fr/events/284358899" class="uri">http://meetup.rlille.fr/events/284358899</a></p>
-<p>L’ensemble des diapositives sera mis à disposition sur le GitHub du groupe&nbsp;: <a href="https://github.com/RLille/meetups/tree/main/meetups/2022-04-07/materials" class="uri">https://github.com/RLille/meetups/tree/main/meetups/2022-04-07/materials</a></p>
-<p>Le Meetup sera enregistré et diffusé sur Youtube (<a href="http://youtube.rlille.fr/" class="uri">http://youtube.rlille.fr/</a>).</p>
+<p>4 ans après sa création en février 2020, malgré une petite interruption, nous avons le plaisir de vous annoncer la reprise des activités de R Lille&nbsp;!</p>
+<p>Arthur Bréant, consultant et formateur chez <a href="https://thinkr.fr/">ThinkR</a>, reprend le flambeau de l’organisation des évènements R Lille. Il a pour ambition de faire de R Lille un <strong>lieu de rencontres et d’échanges</strong> pour les utilisateurs de R dans la région lilloise.</p>
+<p>Mickaël Canouil, fondateur de R Lille, reste dans l’organisation et apportera son soutien à Arthur pour la reprise des activités.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.meetup.com/fr-FR/r-lille/"><img src="2024-02-05.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:65.0%" alt="R Lille - Reprise des activités"></a></p>
+</figure>
+</div>
+<p>Afin de ne louper aucun de nos prochains évènements, je vous invite à rejoindre le groupe sur <a href="https://www.meetup.com/fr-FR/r-lille/" class="uri">https://www.meetup.com/fr-FR/r-lille/</a>. Nous reviendrons vers vous très prochainement pour vous annoncer la date du prochain évènement.</p>
+<p>D’ailleurs, si vous souhaitez partager avec le groupe vos connaissances et votre expérience, n’hésitez pas à nous contacter pour proposer un sujet de présentation ou un atelier.</p>
+<p>Pour nous contacter, vous pouvez nous écrire à l’adresse suivante&nbsp;: <script type="text/javascript">
+<!--
+h='&#114;&#108;&#x69;&#108;&#108;&#x65;&#46;&#102;&#114;';a='&#64;';n='&#x63;&#x6f;&#110;&#116;&#x61;&#x63;&#116;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>contact at rlille dot fr</noscript>.</p>
 <p>À bientôt&nbsp;!<br>
-Mickaël CANOUIL</p>
+Arthur Bréant</p>
 
 
 
@@ -637,7 +618,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
 <p>© 2024 R Lille (R User Group).<br>
 License: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY NC SA 4.0</a>.</p>
-<div class="toc-actions"><ul><li><a href="https://github.com/RLille/rlille.fr/edit/main/posts/2022-03-08-memory-computation-efficient-statistical-tools/Index.qmd" class="toc-action"><i class="bi bi-github"></i>Modifier cette page</a></li><li><a href="https://github.com/RLille/rlille.fr/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></div>
+<div class="toc-actions"><ul><li><a href="https://github.com/RLille/rlille.fr/edit/main/posts/2024-02-05-rlille-reborn/index.qmd" class="toc-action"><i class="bi bi-github"></i>Modifier cette page</a></li><li><a href="https://github.com/RLille/rlille.fr/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Supported by <a href="https://www.r-consortium.org/"><img src="../../media/RConsortium_Horizontal_Pantone.png" alt="R Consortium Logo" style="height:1.5em;"></a>.</p>
 </div>
