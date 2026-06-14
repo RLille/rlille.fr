@@ -11,12 +11,10 @@ website:
   announcement:
     icon: info-circle
     dismissable: true
-    type: success
+    type: warning
     position: below-navbar
     content: |
-      **Info** - Le groupe reprend ses activités.
-      Nous vous tiendrons informé•e•s de la date de notre prochain évènement.
-      Une idée, une envie, venez en discuter via [Slack](https://r-grrr.slack.com/archives/C042K6XB34G) ou [courriel](mailto:contact@rlille.fr).
+      **Info** - Le groupe a cessé ses activités à l'été 2024.
   title: "R Lille - Groupe des Utilisateurs•rices R de Lille"
   description: "Groupe des Utilisateurs•rices de R de Lille"
   favicon: /media/icon.svg
